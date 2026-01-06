@@ -1,0 +1,2731 @@
+<section id="falegame-hero" class="falegame-hero-section">
+  <!-- 背景遮罩 -->
+  <div class="falegame-hero-overlay"></div>
+  <!-- 城市剪影夜景 -->
+  <div class="falegame-hero-cityline"></div>
+  <!-- 內容區塊 -->
+  <div class="falegame-hero-content">
+    <h1 class="falegame-hero-title">
+      <span class="falegame-hero-icon">&#9889;</span>
+      發樂娛樂城
+      <span class="falegame-hero-badge">Falegame</span>
+    </h1>
+    <h2 class="falegame-hero-subtitle">2025娛樂城推薦｜亞洲頂尖現金版線上博弈平台</h2>
+    <div class="falegame-hero-promos">
+      <a href="https://falegame66.com/%E7%99%BC%E6%A8%82%E5%A8%9B%E6%A8%82%E5%9F%8E%E9%AB%94%E9%A9%97%E9%87%91/">🎁 體驗金188</a>
+      <span>｜</span>
+      <a href="https://falegame66.com/%E7%99%BC%E6%A8%82%E5%A8%9B%E6%A8%82%E5%9F%8E%E9%A6%96%E5%84%B2%E5%84%AA%E6%83%A0/">💰 首存100%優惠</a>
+      <span>｜</span>
+      <a href="https://falegame66.com/usdt%e8%99%9b%e6%93%ac%e8%b2%a8%e5%b9%a3%e5%84%b2%e5%80%bc%e5%84%aa%e6%83%a0/">💲USDT存款優惠</a>
+            <span>｜</span>
+      <a href="https://falegame66.com/%e4%b9%9d%e5%b7%9e%e6%9c%83%e5%93%a1%e7%ad%89%e7%b4%9a%e5%b9%b3%e7%a7%bb%e5%84%aa%e6%83%a0/">🧧 九州會員轉移</a>
+    </div>
+    <p class="falegame-hero-desc">
+      <a href="https://falegame66.com/"><strong>發樂娛樂城</strong></a> 是亞洲領先的線上現金博弈平台，提供最全面的
+      <a href="https://falegame66.com/%E9%AB%94%E8%82%B2%E8%B3%BD%E4%BA%8B/">體育賽事</a>、
+      <a href="https://falegame66.com/%E7%9C%9F%E4%BA%BA%E7%99%BE%E5%AE%B6%E6%A8%82-post/">真人百家樂</a>、
+      <a href="https://falegame66.com/%E9%9B%BB%E5%AD%90%E8%80%81%E8%99%8E%E6%A9%9F/">電子老虎機</a>、
+      <a href="https://falegame66.com/poker-post/">彩票棋牌</a>、
+      <a href="https://falegame66.com/%E6%8D%95%E9%AD%9A%E9%81%8A%E6%88%B2-post/">捕魚遊戲</a> 等多樣娛樂。
+    </p>
+    <p class="falegame-hero-desc">
+      平台通過國際級安全認證，提供極速提款、每日返水、續存加碼、好友推薦回饋等多種優惠方案，打造安心、穩賺、好玩的娛樂體驗！
+    </p>
+    <div class="falegame-hero-cta">
+      <a class="falegame-hero-btn falegame-hero-btn-main" href="https://fale624.com/account/signup">🚀 立即註冊</a>
+      <a class="falegame-hero-btn falegame-hero-btn-gold" href="https://lin.ee/Ta4EbEv">🎯 了解優惠</a>
+    </div>
+  </div>
+</section>
+
+<style>
+.falegame-hero-section {
+  position: relative;
+  padding: 108px 16px 96px 16px;
+  /* 大面積夜色漸層+夜空光暈 */
+  background:
+    radial-gradient(circle at 60% 18%, #20f7ff22 0, #151e30 50%, #141c2e 100%);
+  color: #fff;
+  text-align: center;
+  font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  min-height: 660px;
+  overflow: hidden;
+  box-shadow: 0 10px 44px #0ff3, 0 2px 22px #122a;
+}
+.falegame-hero-overlay {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  /* 夜空深藍+科技藍光暈 */
+  background: linear-gradient(180deg,rgba(14,24,44,0.92) 60%,rgba(32,247,255,0.10) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+.falegame-hero-cityline {
+  /* 夜景城市剪影，SVG透明背景，底部不重複 */
+  position: absolute;
+  left: 0; bottom: 0; width: 100vw; height: 300px;
+  pointer-events: none;
+  z-index: 2;
+  background: url('https://svgshare.com/i/13dL.svg') bottom center no-repeat;
+  background-size: cover;
+  /* 可自行更換為更精緻的夜景SVG */
+}
+.falegame-hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 920px;
+  margin: auto;
+  padding: 0 10px;
+  /* 霓虹科技感外框 */
+  border-radius: 20px;
+  box-shadow: 0 0 38px #20f7ff44, 0 2px 24px #10101a55;
+  background: rgba(21,30,54,0.26);
+  backdrop-filter: blur(1.5px);
+}
+
+.falegame-hero-title {
+  font-size: 3.1rem;
+  font-weight: 900;
+  color: #20f7ff;
+  text-shadow: 2px 2px 18px #000, 0 4px 22px #20f7ff66;
+  margin-bottom: 7px;
+  letter-spacing: 2.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.falegame-hero-icon {
+  font-size: 2.2rem;
+  color: #ffd700;
+  filter: drop-shadow(0 0 8px #fff70099);
+  animation: neon-flicker 1.7s infinite alternate;
+}
+@keyframes neon-flicker {
+  0%,100% { opacity: 1; filter: drop-shadow(0 0 8px #fff700cc);}
+  35% { opacity: 0.8; }
+  50% { opacity: 0.5; filter: drop-shadow(0 0 18px #ffd700cc);}
+  55% { opacity: 1;}
+}
+.falegame-hero-badge {
+  display: inline-block;
+  background: linear-gradient(90deg,#00e5ff 20%,#20f7ff 85%);
+  color: #002e3f;
+  font-size: 1.13rem;
+  font-weight: bold;
+  border-radius: 18px;
+  padding: 3px 18px;
+  margin-left: 16px;
+  box-shadow: 0 2px 12px #20f7ff44;
+  letter-spacing: 1.5px;
+}
+.falegame-hero-subtitle {
+  font-size: 1.26rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 2px;
+  margin-bottom: 16px;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 10px #000b;
+  background: linear-gradient(90deg,#20f7ff44 10%,#07224600 100%);
+  border-radius: 7px;
+  display: inline-block;
+  padding: 4px 18px 2px 18px;
+}
+.falegame-hero-promos {
+  margin-top: 14px;
+  font-size: 1.13rem;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 18px;
+  align-items: center;
+  text-shadow: 0 2px 10px #20f7ff22;
+  background: rgba(32,247,255,0.06);
+  border-radius: 11px;
+  padding: 9px 12px;
+  box-shadow: 0 1px 10px #20f7ff19;
+}
+.falegame-hero-promos a {
+  color: #20f7ff;
+  text-decoration: underline;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color .15s;
+}
+.falegame-hero-promos a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+.falegame-hero-promos span {
+  color: #9cc5dd;
+  opacity: .76;
+}
+.falegame-hero-desc {
+  margin-top: 22px;
+  font-size: 1.09rem;
+  line-height: 1.87;
+  color: #e0e0e0;
+  text-shadow: 0 2px 10px #0002;
+}
+.falegame-hero-desc a {
+  color: #20f7ff;
+  font-weight: 500;
+  transition: color .16s;
+}
+.falegame-hero-desc a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+.falegame-hero-cta {
+  margin-top: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.falegame-hero-btn {
+  display: inline-block;
+  padding: 16px 46px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  border-radius: 32px;
+  text-decoration: none;
+  margin: 0 8px;
+  box-shadow: 0 6px 32px #20f7ff33, 0 2px 18px #0007;
+  border: none;
+  transition: background .18s, color .18s, box-shadow .18s, transform .14s;
+  letter-spacing: 2px;
+  outline: none;
+  position: relative;
+}
+.falegame-hero-btn-main {
+  background: linear-gradient(135deg, #20f7ff 60%, #00e5ff 100%);
+  color: #002e3f !important;
+  border: 1px solid #20f7ff;
+  filter: drop-shadow(0 0 12px #20f7ff66);
+}
+.falegame-hero-btn-main:hover,
+.falegame-hero-btn-main:focus {
+  background: #00e5ff;
+  color: #fff !important;
+  box-shadow: 0 8px 40px #20f7ff77;
+  transform: translateY(-2px) scale(1.04);
+}
+.falegame-hero-btn-gold {
+  background: linear-gradient(135deg, #ffd700 72%, #ff9800 100%);
+  color: #2c1400 !important;
+  border: 1px solid #ffd700;
+  filter: drop-shadow(0 0 12px #ffd70044);
+}
+.falegame-hero-btn-gold:hover,
+.falegame-hero-btn-gold:focus {
+  background: #ffc107;
+  color: #fff !important;
+  box-shadow: 0 8px 40px #ffd70077;
+  transform: translateY(-2px) scale(1.04);
+}
+
+@media (max-width: 900px) {
+  .falegame-hero-title { font-size: 2.1rem; }
+  .falegame-hero-subtitle { font-size: 1.02rem; }
+  .falegame-hero-desc { font-size: 0.97rem; }
+  .falegame-hero-btn { font-size: 1rem; padding: 13px 18px; }
+  .falegame-hero-content { padding: 0 2vw; }
+  .falegame-hero-section { padding: 58px 2vw 38px 2vw; min-height: 400px;}
+  .falegame-hero-cityline { height: 120px; }
+}
+@media (max-width: 600px) {
+  .falegame-hero-title { font-size: 1.4rem; }
+  .falegame-hero-badge { font-size: 0.97rem; padding: 2px 10px; }
+  .falegame-hero-content { max-width: 98vw; }
+  .falegame-hero-cityline { height: 70px; }
+}
+</style>
+
+
+<!-- Swiper 輪播用 CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<section class="falegame-promo-section fu-casino-promo-bg">
+  <div class="fu-casino-promo-header">
+    <h2 class="fu-casino-promo-title">發樂娛樂城優惠</h2>
+    <div class="fu-casino-promo-subtitle">CASINO PROMOTIONS</div>
+  </div>
+  <div class="fu-casino-promo-swiper-wrap">
+    <div class="swiper fu-casino-promo-swiper">
+      <div class="swiper-wrapper">
+        <!-- 卡片1 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/03/發樂娛樂城體驗金.jpg" alt="註冊即送體驗金188">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">註冊即送體驗金188</div>
+              <div class="fu-casino-promo-desc">新用戶專屬福利，註冊即領體驗金188元，免費試玩百款熱門遊戲。</div>
+              <a class="fu-casino-promo-btn promo-gold" href="https://fale624.com/account/signup" target="_blank" rel="noopener">立即領取</a>
+            </div>
+          </div>
+        </div>
+        <!-- 卡片2 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/02/發樂娛樂城首儲優惠.jpeg" alt="首儲優惠大放送">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">首儲優惠大放送</div>
+              <div class="fu-casino-promo-desc">首儲最高100%加碼，天天送驚喜彩金，VIP儲值返利再升級！</div>
+              <a class="fu-casino-promo-btn promo-green" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%e9%a6%96%e5%84%b2%e5%84%aa%e6%83%a0/" target="_blank" rel="noopener">立即查看</a>
+            </div>
+          </div>
+        </div>
+        <!-- 卡片3 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/03/USDT虛擬貨幣綁定-1.jpeg" alt="USDT虛擬貨幣儲值贈">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">USDT儲值專屬優惠</div>
+              <div class="fu-casino-promo-desc">USDT儲值最高送388元，首儲無門檻加碼，每月回饋2%現金。</div>
+              <a class="fu-casino-promo-btn promo-blue" href="https://falegame66.com/usdt%e8%99%9b%e6%93%ac%e8%b2%a8%e5%b9%a3%e5%84%b2%e5%80%bc%e5%84%aa%e6%83%a0/" target="_blank" rel="noopener">專屬加碼</a>
+            </div>
+          </div>
+        </div>
+        <!-- 卡片4 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/02/發樂娛樂城每日返水.jpeg" alt="VIP返水無上限">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">VIP返水無上限</div>
+              <div class="fu-casino-promo-desc">高額返水、天天領取，讓你全盤不虧！</div>
+              <a class="fu-casino-promo-btn promo-red" href="https://fale624.com/account/signup" target="_blank" rel="noopener">立即領取</a>
+            </div>
+          </div>
+        </div>
+        <!-- 卡片5 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/02/發樂娛樂城好友推薦獎金.jpeg" alt="推薦好友拿獎金">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">推薦好友拿獎金</div>
+              <div class="fu-casino-promo-desc">邀請好友註冊、儲值，雙贏回饋享不完，最高領588元！</div>
+              <a class="fu-casino-promo-btn promo-green" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%e4%bb%8b%e7%b4%b9%e9%87%91/" target="_blank" rel="noopener">查看辦法</a>
+            </div>
+          </div>
+        </div>
+        <!-- 卡片6 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/02/百家樂連勝敗彩金3888.jpeg" alt="百家樂連勝敗彩金">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">百家樂連勝/敗彩金</div>
+              <div class="fu-casino-promo-desc">挑戰極限，最高領彩金3888元！</div>
+              <a class="fu-casino-promo-btn promo-gold" href="https://fale624.com/account/signup" target="_blank" rel="noopener">挑戰領獎</a>
+            </div>
+          </div>
+        </div>
+        <!-- 卡片7 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/02/老虎機續存40.jpeg" alt="老虎機續存40%">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">老虎機續存送40%</div>
+              <div class="fu-casino-promo-desc">儲值續存再送40%，儲越多賺越多，天天領現金！</div>
+              <a class="fu-casino-promo-btn promo-red" href="https://fale624.com/account/signup" target="_blank" rel="noopener">限時加碼</a>
+            </div>
+          </div>
+        </div>
+        <!-- 卡片8 -->
+        <div class="swiper-slide">
+          <div class="fu-casino-promo-card">
+            <div class="fu-casino-promo-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2025/02/發樂簽到金.jpeg" alt="每日簽到獎勵">
+            </div>
+            <div class="fu-casino-promo-content">
+              <div class="fu-casino-promo-text">每日簽到獎勵</div>
+              <div class="fu-casino-promo-desc">天天簽到累積獎金，驚喜連連最高388元！</div>
+              <a class="fu-casino-promo-btn promo-blue" href="https://fale624.com/account/signup" target="_blank" rel="noopener">馬上簽到</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 分頁點 -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+.fu-casino-promo-bg {
+  background: linear-gradient(180deg, #0a9fd8 0%, #0a7dc7 60%, #0a2050 100%);
+  padding: 52px 0 56px 0;
+  position: relative;
+  overflow: hidden;
+}
+.fu-casino-promo-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.fu-casino-promo-title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-shadow: 0 6px 18px #00eaff77;
+}
+.fu-casino-promo-subtitle {
+  color: #ffe066;
+  font-size: 1.17rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 3px 12px #ffe06644;
+}
+.fu-casino-promo-swiper-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.fu-casino-promo-swiper {
+  padding-bottom: 56px;
+  overflow: visible;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  transition: transform .4s cubic-bezier(.45,1.64,.52,.95);
+}
+.fu-casino-promo-card {
+  background: #fff;
+  border-radius: 26px;
+  box-shadow: 0 2px 18px #0187d433, 0 0 0 2px #fff7 inset;
+  width: 340px;
+  min-width: 240px;
+  max-width: 94vw;
+  min-height: 350px;
+  margin: 0 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow .16s, transform .13s;
+  position: relative;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  will-change: transform;
+}
+.swiper-slide-active .fu-casino-promo-card {
+  box-shadow: 0 10px 40px #0a9fd855, 0 2px 14px #ffd70077;
+  transform: scale(1.02);
+  z-index: 2;
+}
+.swiper-slide-next .fu-casino-promo-card,
+.swiper-slide-prev .fu-casino-promo-card {
+  box-shadow: 0 6px 22px #ffd70044, 0 1px 8px #0a9fd822;
+  transform: scale(0.97);
+  z-index: 1;
+}
+.fu-casino-promo-imgbox {
+  width: 100%;
+  height: 186px;
+  background: #e4f4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.fu-casino-promo-imgbox img {
+  max-width: 94%;
+  max-height: 94%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border-radius: 18px;
+  background: none;
+  box-shadow: none;
+}
+.fu-casino-promo-content {
+  width: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 24px 24px 24px;
+}
+.fu-casino-promo-text {
+  color: #0a2050;
+  font-size: 1.35rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.2px;
+  margin-bottom: 12px;
+  margin-top: 0;
+  word-break: keep-all;
+  line-height: 1.24;
+}
+.fu-casino-promo-desc {
+  color: #2880b9;
+  font-size: 1.04rem;
+  text-align: center;
+  margin-bottom: 22px;
+  margin-top: 0;
+  line-height: 1.7;
+  flex: 1 1 auto;
+}
+.fu-casino-promo-btn {
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px 40px;
+  border-radius: 24px;
+  font-size: 1.12rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 10px #b98cff33;
+  transition: background .18s, color .18s, box-shadow .18s;
+}
+.promo-gold { background: linear-gradient(90deg,#ffd700 80%, #ffe066 100%); color: #23253a !important; }
+.promo-green { background: linear-gradient(90deg,#00e676 80%, #00bcd4 100%); color: #23253a !important; }
+.promo-blue { background: linear-gradient(90deg,#29b6f6 80%, #00bcd4 100%); color: #23253a !important; }
+.promo-red { background: linear-gradient(90deg,#ff9800 70%, #f44336 100%); color: #fff !important; }
+.fu-casino-promo-btn:hover {
+  background: #00e5ff;
+  color: #fff !important;
+  box-shadow: 0 6px 18px #ffd70044;
+}
+
+.swiper-pagination-bullet {
+  background: #ffe066;
+  opacity: 0.3;
+}
+.swiper-pagination-bullet-active {
+  background: #0a9fd8;
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .fu-casino-promo-swiper-wrap { max-width: 99vw;}
+  .fu-casino-promo-card { width: 320px; min-width: 180px;}
+}
+@media (max-width: 900px) {
+  .fu-casino-promo-card { width: 94vw; min-width: 0;}
+  .fu-casino-promo-content { padding: 20px 10px 12px 10px;}
+  .fu-casino-promo-imgbox { height: 112px;}
+}
+@media (max-width: 600px) {
+  .fu-casino-promo-card {
+    width: 90vw;
+    min-width: 0;
+    min-height: 260px;
+    border-radius: 18px;
+    margin: 0 auto;
+    box-shadow: 0 8px 32px #0a9fd855;
+  }
+  .fu-casino-promo-title { font-size: 1.35rem; }
+  .fu-casino-promo-content { padding: 18px 5vw 12px 5vw; }
+  .fu-casino-promo-imgbox { height: 146px; }
+  .fu-casino-promo-imgbox img {
+    max-width: 96%;
+    max-height: 96%;
+    border-radius: 12px;
+  }
+  .fu-casino-promo-text { font-size: 1.18rem; }
+  .fu-casino-promo-desc { font-size: 1rem; }
+  .fu-casino-promo-btn {
+    width: 86vw;
+    font-size: 1.19rem;
+    padding: 14px 0;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  new Swiper('.fu-casino-promo-swiper', {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: "auto",
+    initialSlide: 1,
+    spaceBetween: 0,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    coverflowEffect: {
+      rotate: 32,
+      stretch: 0,
+      depth: 160,
+      modifier: 1.1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    breakpoints: {
+      1200: { slidesPerView: 3 },
+      900: { slidesPerView: 2 },
+      600: { slidesPerView: 1 }
+    }
+  });
+});
+</script>
+
+<section id="fale624" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 64px 0 56px 0; background: linear-gradient(180deg, #0a1a2f 0%, #12376e 80%, #12253a 100%); color: #fff; border-radius: 22px; font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif; box-shadow: 0 8px 48px #061a2b66, 0 2px 18px #03e9f422; position: relative; overflow: hidden;">
+  <!-- 左側文字區 -->
+  <div style="flex: 1 1 430px; min-width: 290px; max-width: 600px; padding: 32px 42px 32px 38px; z-index:2;">
+    <h2 style="font-size: 2rem; color: #ffd600; margin-bottom: 18px; letter-spacing:2px; text-shadow:0 4px 18px #0008;">🎖️ 2025娛樂城推薦</h2>
+    <h3 style="font-size: 1.35rem; color: #03e9f4; margin-bottom: 16px;">
+      <a style="color: #20f7ff; text-decoration: none; font-weight: 900; letter-spacing:1px;" href="#發樂娛樂城">發樂娛樂城</a>
+    </h3>
+    <p style="font-size: 1.08rem; line-height: 2; background: linear-gradient(90deg,#0b2a4a 70%,#1a3b5a 100%); border-radius: 9px; padding: 18px 20px 16px 20px; box-shadow:0 2px 12px #20f7ff22;">
+      <strong>
+        <a style="color: #ffd600; text-decoration: underline;" href="https://falegame66.com/2025%E5%A8%9B%E6%A8%82%E5%9F%8E%E6%8E%A8%E8%96%A6/#recommend2025" target="_blank" rel="noopener">2025娛樂城推薦</a>
+      </strong>
+      PTT網友一致熱推的娛樂城平台，
+      <a id="發樂娛樂城" style="color: #20f7ff; font-weight: 600;" href="#fale624">發樂娛樂城</a>
+      以玩家優先、極速提款、超多紅利、嚴選安全為最大特色，評價蟬聯全台冠軍，讓每位玩家都能玩得開心又放心！
+    </p>
+    <ul style="margin-top: 28px; font-size: 1rem; line-height: 1.8; padding-left: 20px; color:#fff;">
+      <li style="margin-bottom: 5px;">
+        <a style="color: #20f7ff; font-weight:600;" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%e5%87%ba%e9%87%91/">✔️ 出金速度業界第一</a>
+      </li>
+      <li style="margin-bottom: 5px;">
+        <a style="color: #20f7ff; font-weight:600;" href="https://falegame66.com/%e5%a8%9b%e6%a8%82%e5%9f%8e%e9%a6%96%e5%84%b2/">✔️ 優惠紅利活動最多</a>
+      </li>
+      <li style="margin-bottom: 5px;">
+        <a style="color: #20f7ff; font-weight:600;" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%e8%bf%94%e6%b0%b4/">✔️ 回饋返水永不斷</a>
+      </li>
+      <li>
+        <a style="color: #20f7ff; font-weight:600;" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%e5%84%aa%e8%b3%aa%e5%a8%9b%e6%a8%82%e5%9f%8e%e7%ac%ac%e4%b8%80%e9%81%b8%e6%93%87/">✔️ 評價榮登全網冠軍</a>
+      </li>
+    </ul>
+    <a style="display: inline-block; margin-top: 30px; background: linear-gradient(90deg, #20f7ff 60%, #1de9b6 100%); color: #002e3f; font-size: 1.08rem; font-weight: 900; border-radius: 22px; box-shadow:0 4px 22px #20f7ff66; padding: 15px 42px; text-decoration: none; letter-spacing:1.5px; transition:filter .22s;" href="https://falegame66.com/">發樂娛樂城官網</a>
+    <a style="display: inline-block; margin-top: 30px; background: linear-gradient(90deg, #20f7ff 60%, #1de9b6 100%); color: #002e3f; font-size: 1.08rem; font-weight: 900; border-radius: 22px; box-shadow:0 4px 22px #20f7ff66; padding: 15px 42px; text-decoration: none; letter-spacing:1.5px; transition:filter .22s;" href="https://falegame66.com/app/">發樂娛樂城APP下載</a>
+  </div>
+  <!-- 右側圖片區 -->
+  <div style="flex: 1 1 340px; min-width: 220px; padding: 18px 28px 18px 12px; text-align: center; z-index:2;">
+    <div style="position:relative; display:inline-block; width:100%; max-width:720px;">
+      <img style="width:100%; border-radius: 15px; box-shadow: 0 0 38px #20f7ff33, 0 4px 26px #0008; border:2px solid #20f7ff; background:linear-gradient(120deg,#132440 80%,#20f7ff11 100%);" 
+        src="https://falegame66.com/wp-content/uploads/2025/01/娛樂城推薦.png" alt="娛樂城推薦" />
+      <!-- 科技感光暈 -->
+      <span style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:15px;box-shadow:0 0 44px #20f7ff55 inset, 0 0 22px #23203a inset;pointer-events:none;"></span>
+    </div>
+  </div>
+  <!-- 底部科技藍光特效 -->
+  <div style="position:absolute; left:0; bottom:0; width:100%; height:90px; z-index:1; pointer-events:none; background:radial-gradient(ellipse at 60% 100%, #20f7ff33 0, transparent 80%);"></div>
+</section>
+
+<!-- Swiper 輪播用 CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<section class="falegame-hotgames-section fu-hotgames-bg">
+  <div class="fu-hotgames-header">
+    <h2 class="fu-hotgames-title">發樂娛樂城熱門遊戲推薦</h2>
+    <div class="fu-hotgames-subtitle">CASINO GAMES</div>
+  </div>
+  <div class="fu-hotgames-swiper-wrap">
+    <div class="swiper fu-hotgames-swiper">
+      <div class="swiper-wrapper">
+        <!-- 電子老虎機 -->
+        <div class="swiper-slide">
+          <a class="fu-hotgames-card" href="https://falegame66.com/電子老虎機-post/" target="_blank" rel="noopener">
+            <div class="fu-hotgames-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2023/07/game_slot.webp" alt="電子老虎機">
+            </div>
+            <div class="fu-hotgames-content">
+              <div class="fu-hotgames-name">電子老虎機</div>
+              <div class="fu-hotgames-desc">電視遊戲如老虎機般簡單、易上手，超高爆率彩金與經典機台等你來挑戰！新手首儲享40%回饋。</div>
+            </div>
+          </a>
+        </div>
+        <!-- 真人百家樂 -->
+        <div class="swiper-slide">
+          <a class="fu-hotgames-card" href="https://falegame66.com/真人百家樂-post/" target="_blank" rel="noopener">
+            <div class="fu-hotgames-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2023/07/game_live.webp" alt="真人百家樂">
+            </div>
+            <div class="fu-hotgames-content">
+              <div class="fu-hotgames-name">真人百家樂</div>
+              <div class="fu-hotgames-desc">7大真人品牌館，百家樂、龍虎、炸金花、骰寶等多元玩法，高畫質直播即時互動，體驗真實賭場臨場感！</div>
+            </div>
+          </a>
+        </div>
+        <!-- 體育電競 -->
+        <div class="swiper-slide">
+          <a class="fu-hotgames-card" href="https://falegame66.com/體育賽事-post/" target="_blank" rel="noopener">
+            <div class="fu-hotgames-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2023/07/game_sport.webp" alt="體育電競">
+            </div>
+            <div class="fu-hotgames-content">
+              <div class="fu-hotgames-name">體育電競</div>
+              <div class="fu-hotgames-desc">NBA、MLB、NHL等國際賽事，LOL/CS:GO等熱門電競投注，玩法多元即時直播下注！</div>
+            </div>
+          </a>
+        </div>
+        <!-- 棋牌遊戲 -->
+        <div class="swiper-slide">
+          <a class="fu-hotgames-card" href="https://falegame66.com/poker-post/" target="_blank" rel="noopener">
+            <div class="fu-hotgames-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2023/07/game_chess.webp" alt="棋牌遊戲">
+            </div>
+            <div class="fu-hotgames-content">
+              <div class="fu-hotgames-name">棋牌遊戲</div>
+              <div class="fu-hotgames-desc">德州撲克、炸金花、牛牛、麻將，結合策略與運氣，多人對戰即時匹配，挑戰最高手玩家！</div>
+            </div>
+          </a>
+        </div>
+        <!-- 彩票遊戲 -->
+        <div class="swiper-slide">
+          <a class="fu-hotgames-card" href="https://falegame66.com/彩票遊戲-post/" target="_blank" rel="noopener">
+            <div class="fu-hotgames-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2023/07/game_lottery.webp" alt="彩票遊戲">
+            </div>
+            <div class="fu-hotgames-content">
+              <div class="fu-hotgames-name">彩票遊戲</div>
+              <div class="fu-hotgames-desc">台灣539、大樂透、六合彩等多彩種，安全公平，天天有機會贏彩金！</div>
+            </div>
+          </a>
+        </div>
+        <!-- 捕魚遊戲 -->
+        <div class="swiper-slide">
+          <a class="fu-hotgames-card" href="https://falegame66.com/捕魚遊戲-post/" target="_blank" rel="noopener">
+            <div class="fu-hotgames-imgbox">
+              <img src="https://falegame66.com/wp-content/uploads/2023/07/game_fish.webp" alt="捕魚遊戲">
+            </div>
+            <div class="fu-hotgames-content">
+              <div class="fu-hotgames-name">捕魚遊戲</div>
+              <div class="fu-hotgames-desc">經典街機捕魚，結合高爆率獎勵，BWINMING、ZEBRA Gaming等多品牌收錄。</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- 分頁點 -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+.fu-hotgames-bg {
+  background: linear-gradient(180deg, #0a9fd8 0%, #0a7dc7 60%, #0a2050 100%);
+  padding: 52px 0 56px 0;
+  position: relative;
+  overflow: hidden;
+}
+.fu-hotgames-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.fu-hotgames-title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-shadow: 0 6px 18px #00eaff77;
+}
+.fu-hotgames-subtitle {
+  color: #ffe066;
+  font-size: 1.17rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 3px 12px #ffe06644;
+}
+.fu-hotgames-swiper-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.fu-hotgames-swiper {
+  padding-bottom: 56px;
+  overflow: visible;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  transition: transform .4s cubic-bezier(.45,1.64,.52,.95);
+}
+.fu-hotgames-card {
+  background: #fff;
+  border-radius: 26px;
+  box-shadow: 0 2px 18px #0187d433, 0 0 0 2px #fff7 inset;
+  width: 340px;
+  min-width: 240px;
+  max-width: 94vw;
+  min-height: 350px;
+  margin: 0 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow .16s, transform .13s;
+  position: relative;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  will-change: transform;
+  text-decoration: none;
+  cursor: pointer;
+}
+.swiper-slide-active .fu-hotgames-card {
+  box-shadow: 0 10px 40px #0a9fd855, 0 2px 14px #ffd70077;
+  transform: scale(1.08);
+  z-index: 2;
+}
+.swiper-slide-next .fu-hotgames-card,
+.swiper-slide-prev .fu-hotgames-card {
+  box-shadow: 0 6px 22px #ffd70044, 0 1px 8px #0a9fd822;
+  transform: scale(0.97);
+  z-index: 1;
+}
+.fu-hotgames-imgbox {
+  width: 100%;
+  height: 186px;
+  background: #e4f4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.fu-hotgames-imgbox img {
+  max-width: 94%;
+  max-height: 94%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border-radius: 18px;
+  background: none;
+  box-shadow: none;
+}
+.fu-hotgames-content {
+  width: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 24px 24px 24px;
+}
+.fu-hotgames-name {
+  color: #0a2050;
+  font-size: 1.35rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.2px;
+  margin-bottom: 12px;
+  margin-top: 0;
+  word-break: keep-all;
+  line-height: 1.24;
+}
+.fu-hotgames-desc {
+  color: #2880b9;
+  font-size: 1.04rem;
+  text-align: center;
+  margin-bottom: 22px;
+  margin-top: 0;
+  line-height: 1.7;
+  flex: 1 1 auto;
+}
+
+.swiper-pagination-bullet {
+  background: #ffe066;
+  opacity: 0.3;
+}
+.swiper-pagination-bullet-active {
+  background: #0a9fd8;
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .fu-hotgames-swiper-wrap { max-width: 99vw;}
+  .fu-hotgames-card { width: 320px; min-width: 180px;}
+}
+@media (max-width: 900px) {
+  .fu-hotgames-card { width: 94vw; min-width: 0;}
+  .fu-hotgames-content { padding: 20px 10px 12px 10px;}
+  .fu-hotgames-imgbox { height: 112px;}
+}
+@media (max-width: 600px) {
+  .fu-hotgames-card {
+    width: 86vw;
+    min-width: 0;
+    min-height: 240px;
+    border-radius: 16px;
+    margin: 0 auto;
+    box-shadow: 0 6px 24px #0a9fd855;
+  }
+  .fu-hotgames-title {
+    font-size: 1.32rem;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  .fu-hotgames-content {
+    padding: 16px 4vw 12px 4vw;
+  }
+  .fu-hotgames-imgbox {
+    height: 110px;
+    background: #eaf7fc;
+    border-radius: 12px;
+  }
+  .fu-hotgames-imgbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  new Swiper('.fu-hotgames-swiper', {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: "auto",
+    initialSlide: 1,
+    spaceBetween: 0,
+    autoplay: {
+      delay: 3200,
+      disableOnInteraction: false
+    },
+    coverflowEffect: {
+      rotate: 32,
+      stretch: 0,
+      depth: 160,
+      modifier: 1.1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    breakpoints: {
+      1200: { slidesPerView: 3 },
+      900: { slidesPerView: 2 },
+      600: { slidesPerView: 1 }
+    }
+  });
+});
+</script>
+
+<section class="wc26-global-sport-bg">
+  <div class="wc26-global-sport-section">
+    <div class="wc26-global-sport-flexrow">
+      <!-- 左側：2026體育賽事行事曆 -->
+      <div class="wc26-global-sport-left">
+        <h2 class="wc26-global-sport-title"> 2026國際體育賽事總整理</h2>
+        <p class="wc26-global-sport-desc">
+          年度全球重點賽事一站掌握！從奧運、世足、網球四大滿貫到F1、NBA、MLB超級賽事，<br>
+          提供最新賽程、直播資訊與投注預測，熱血體育迷必收藏。
+        </p>
+        <!-- 圖片輪播卡片（自動輪播無箭頭） -->
+        <div class="wc26-global-sport-carousel">
+          <div class="wc26-global-sport-carousel-track">
+            <a href="https://falegame66.com/2026%e9%ab%94%e8%82%b2%e8%b3%bd%e4%ba%8b/" target="_blank" class="wc26-global-sport-carousel-card">
+              <img src="https://i.imgur.com/3qg7Sof.png" alt="賽事卡片1">
+            </a>
+            <a href="https://falegame66.com/2026%e9%ab%94%e8%82%b2%e8%b3%bd%e4%ba%8b/" target="_blank" class="wc26-global-sport-carousel-card">
+              <img src="https://i.imgur.com/ej6GhHm.png" alt="賽事卡片2">
+            </a>
+            <a href="https://falegame66.com/2026%e9%ab%94%e8%82%b2%e8%b3%bd%e4%ba%8b/" target="_blank" class="wc26-global-sport-carousel-card">
+              <img src="https://i.imgur.com/c6TIiz1.png" alt="賽事卡片3">
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <!-- 中間：2026世界盃人物圖片（無背景PNG） -->
+      <div class="wc26-global-sport-imgwrap">
+        <img src="https://i.imgur.com/FyAMEK7.png" alt="2026世界盃人物" class="wc26-global-sport-img-nobg" />
+      </div>
+      <!-- 右側：2026世界盃專區 -->
+      <div class="wc26-global-sport-right">
+        <h2 class="wc26-global-sport-title wc26-global-sport-title-right">2026世足娛樂城</h2>
+        <ul class="wc26-global-sport-wc-list">
+          <li>即時賽程、分組對陣總覽</li>
+          <li>專業賠率分析、爆冷預測</li>
+          <li>直播攻略＆投注教學</li>
+          <li>主辦國、焦點球隊深度解析</li>
+          <li>
+            <a class="wc26-global-sport-wc-link" href="https://falegame66.com/2026%e4%b8%96%e7%95%8c%e7%9b%83%e5%8d%b3%e6%99%82%e6%af%94%e5%88%86%ef%bd%9c%e8%b6%b3%e7%90%83%e8%b3%bd%e4%ba%8b%e5%88%86%e6%95%b8%e9%80%9f%e5%a0%b1%e3%80%81%e8%b3%bd%e7%a8%8b%e8%b3%87%e8%a8%8a/" target="_blank">
+              世界盃專區詳細攻略 &rarr;
+            </a>
+        <div class="wc26-lively-articles-grid">
+              <a class="wc26-lively-article" href="https://falegame66.com/2026%e4%b8%96%e7%95%8c%e7%9b%83%e8%b3%bd%e7%a8%8b/" target="_blank">
+                <div class="wc26-article-thumb">
+                  <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2025/03/2026%E4%B8%96%E7%95%8C%E7%9B%83.png?fit=1366%2C768&ssl=1" alt="世界盃賽程總覽">
+                </div>
+                <div>
+                  <div class="wc26-article-title">世界盃賽程總覽</div>
+                  <div class="wc26-article-desc">賽程、分組、對陣、投注攻略一次掌握！</div>
+                </div>
+              </a>
+              <a class="wc26-lively-article" href="https://falegame66.com/2026%e4%b8%96%e7%95%8c%e7%9b%83/" target="_blank">
+                <div class="wc26-article-thumb">
+                  <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2025/03/2026%E4%B8%96%E7%95%8C%E7%9B%83-2.png?fit=1366%2C768&ssl=1" alt="焦點前瞻與主辦國資訊">
+                </div>
+                <div>
+                  <div class="wc26-article-title">焦點前瞻與主辦國資訊</div>
+                  <div class="wc26-article-desc">解析主辦城市、戰力與賽程深度趨勢</div>
+                </div>
+              </a>
+              <a class="wc26-lively-article" href="https://falegame66.com/2026%e4%b8%96%e7%95%8c%e7%9b%83%e8%b3%87%e6%a0%bc%e8%b3%bd/" target="_blank">
+                <div class="wc26-article-thumb">
+                  <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2025/04/2026%E4%B8%96%E7%95%8C%E7%9B%83-%E8%B3%87%E6%A0%BC%E8%B3%BD.png?fit=1366%2C768&ssl=1" alt="資格賽晉級與分組結果">
+                </div>
+                <div>
+                  <div class="wc26-article-title">資格賽晉級與分組結果</div>
+                  <div class="wc26-article-desc">各洲晉級狀況、比賽整理完全總編</div>
+                </div>
+              </a>
+              <a class="wc26-lively-article" href="https://falegame66.com/%e4%b8%96%e7%95%8c%e7%9b%83%e6%8a%95%e6%b3%a8/" target="_blank">
+                <div class="wc26-article-thumb">
+                  <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2025/05/%E4%B8%96%E7%95%8C%E6%9D%AF%E6%8A%95%E6%B3%A8.png?fit=1366%2C768&ssl=1" alt="世界盃投注教學">
+                </div>
+                <div>
+                  <div class="wc26-article-title">世界盃投注教學</div>
+                  <div class="wc26-article-desc">運彩玩法推薦，投注策略一文學會</div>
+                </div>
+              </a>
+                            <a class="wc26-lively-article" href="https://falegame66.com/%e4%b8%96%e8%b6%b3%e5%a8%9b%e6%a8%82%e5%9f%8e/" target="_blank">
+                <div class="wc26-article-thumb">
+                  <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2025/10/%E4%B8%96%E8%B6%B3%E5%A8%9B%E6%A8%82%E5%9F%8E.png?fit=1366%2C768&ssl=1" alt="世足娛樂城">
+                </div>
+                <div>
+                  <div class="wc26-article-title">世足娛樂城運彩串關投注攻略</div>
+                  <div class="wc26-article-desc">2026 世界盃足球賽即將開踢，世足娛樂城成為全台球迷與運彩玩家的熱門話題。</div>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.wc26-global-sport-bg {
+  width: 100%;
+  max-width: 1800px;
+  margin: 48px auto 38px auto;
+  padding: 0 22px;
+  background: linear-gradient(100deg,#0a1a2f 70%,#1c60b9 100%);
+  border-radius: 28px;
+  position: relative;
+  box-shadow: 0 10px 38px #20f7ff33, 0 2px 18px #ffd60022;
+  overflow: hidden;
+}
+.wc26-global-sport-section {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 52px 0 52px 0;
+  position: relative;
+  z-index: 1;
+}
+.wc26-global-sport-flexrow {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 54px;
+  position: relative;
+}
+.wc26-global-sport-left, .wc26-global-sport-right {
+  flex: 1 1 0;
+  min-width: 270px;
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wc26-global-sport-title {
+  font-size: 2rem;
+  color: #ffd600;
+  font-weight: 900;
+  margin-bottom: 14px;
+  letter-spacing: 2px;
+  text-shadow: 0 6px 22px #1bf7ff22, 0 2px 14px #7c3afd33;
+}
+.wc26-global-sport-title-right {
+  color: #ff3141;
+  text-align: right;
+  font-size: 1.84rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+  letter-spacing: 1.7px;
+}
+.wc26-global-sport-desc {
+  color: #e9f6ff;
+  font-size: 1.09rem;
+  margin-bottom: 22px;
+  line-height: 1.7;
+  text-shadow: 0 2px 12px #fff4;
+}
+.wc26-global-sport-article {
+  display: block;
+  background: linear-gradient(90deg,#fffbe8 60%,#e2f9ff 100%);
+  border-radius: 13px;
+  box-shadow: 0 2px 14px #ffd60022;
+  padding: 18px 22px 16px 22px;
+  text-decoration: none;
+  transition: box-shadow .16s, transform .16s;
+  margin-bottom: 0;
+}
+.wc26-global-sport-article:hover {
+  box-shadow: 0 8px 36px #ffd60066;
+  transform: translateY(-3px) scale(1.05);
+}
+.wc26-global-sport-article-title {
+  font-size: 1.13rem;
+  color: #0a1a2f;
+  font-weight: bold;
+  margin-bottom: 7px;
+  letter-spacing: 1.1px;
+}
+.wc26-global-sport-article-more {
+  color: #ff3141;
+  font-size: 0.99rem;
+  font-weight: 600;
+  margin-top: 2px;
+}
+.wc26-lively-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 10px;
+  margin-top: 7px;
+}
+.wc26-lively-article {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: #e2f9ff;
+  border-radius: 12px;
+  padding: 9px 11px 9px 9px;
+  box-shadow: 0 2px 8px #20f7ff11;
+  text-decoration: none;
+  color: #0a1a2f;
+  border: 2px solid transparent;
+  transition: all 0.16s;
+  font-weight: 500;
+  min-height: 82px;
+  position: relative;
+}
+.wc26-lively-article:hover {
+  background: #fffbe8;
+  border-color: #ffd600;
+  color: #ff3141;
+  transform: translateY(-2px) scale(1.03);
+}
+.wc26-article-thumb {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 1px 6px #0a9fd822;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+}
+.wc26-article-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+.wc26-article-title {
+  font-weight: bold;
+  font-size: 1.01rem;
+  margin-bottom: 3px;
+}
+.wc26-article-desc {
+  color: #5e5e6e;
+  font-size: 0.95rem;
+  margin-top: 1px;
+}
+@media (max-width:900px) {
+  .wc26-lively-articles-grid {
+    grid-template-columns: 1fr;
+    gap: 10px 0;
+  }
+  .wc26-article-thumb { width: 36px; height: 36px;}
+}
+@media (max-width:600px) {
+  .wc26-lively-articles-grid {gap: 6px 0;}
+  .wc26-article-thumb {width: 28px; height: 28px;}
+}
+/* 輪播樣式 */
+.wc26-global-sport-carousel {
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto 22px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 320px;
+  user-select: none;
+  overflow: hidden;
+}
+.wc26-global-sport-carousel-track {
+  display: flex;
+  transition: transform 0.8s cubic-bezier(.75,.2,.3,1);
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.wc26-global-sport-carousel-card {
+  flex: 0 0 300px;
+  width: 300px;
+  height: 300px;
+  margin: 0 7px;
+  border-radius: 18px;
+  box-shadow: 0 4px 22px #1c60b955, 0 0 0 2px #fff7 inset;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow .18s, transform .13s;
+  overflow: hidden;
+}
+.wc26-global-sport-carousel-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  transition: transform .18s;
+}
+.wc26-global-sport-carousel-card:hover {
+  box-shadow: 0 10px 40px #ffd60055, 0 2px 14px #ffd60033;
+  transform: scale(1.04);
+}
+.wc26-global-sport-imgwrap {
+  flex: 0 0 310px;
+  min-width: 170px;
+  max-width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.wc26-global-sport-img-nobg {
+  width: 95%;
+  max-width: 310px;
+  min-width: 150px;
+  object-fit: contain;
+  display: block;
+  border-radius: 32px;
+  background: none;
+  box-shadow: 0 8px 48px #0a9fd840, 0 2px 18px #ffd60033;
+}
+.wc26-global-sport-right {
+  align-items: flex-end;
+  text-align: right;
+  gap: 0;
+}
+.wc26-global-sport-wc-list {
+  margin: 0 0 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.09rem;
+  color: #fff;
+  line-height: 2.0;
+}
+.wc26-global-sport-wc-list li {
+  margin-bottom: 3px;
+  text-align: right;
+}
+.wc26-global-sport-wc-link {
+  color: #ffd600;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.07rem;
+  transition: color .14s;
+}
+.wc26-global-sport-wc-link:hover { color: #ff3141; }
+
+@media (max-width:1200px) {
+  .wc26-global-sport-bg {max-width:99vw;}
+  .wc26-global-sport-section {max-width:97vw;}
+  .wc26-global-sport-flexrow {gap: 28px;}
+  .wc26-global-sport-imgwrap {max-width: 170px;}
+  .wc26-global-sport-img-nobg {max-width: 170px;}
+  .wc26-global-sport-left, .wc26-global-sport-right {max-width: 99vw;}
+  .wc26-global-sport-carousel {max-width: 300px;}
+}
+@media (max-width:900px) {
+  .wc26-global-sport-flexrow {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .wc26-global-sport-imgwrap {margin: 16px 0;}
+  .wc26-global-sport-title {font-size: 1.33rem;}
+  .wc26-global-sport-title-right {font-size: 1.18rem;}
+  .wc26-global-sport-img-nobg {max-width: 95vw;}
+  .wc26-global-sport-left, .wc26-global-sport-right {align-items: center; text-align: center;}
+  .wc26-global-sport-wc-list li, .wc26-global-sport-right {text-align: center;}
+  .wc26-global-sport-carousel {margin-bottom: 12px;}
+  .wc26-global-sport-carousel-track {width: 300px;}
+}
+@media (max-width:600px) {
+  .wc26-global-sport-bg {border-radius:10px; padding:0 2vw;}
+  .wc26-global-sport-section {padding:14px 0 8px 0;}
+  .wc26-global-sport-title {font-size: 1.01rem;}
+  .wc26-global-sport-title-right {font-size: 0.98rem;}
+  .wc26-global-sport-article-title {font-size: 0.98rem;}
+  .wc26-global-sport-article-more {font-size: 0.81rem;}
+  .wc26-global-sport-imgwrap {max-width: 90vw;}
+  .wc26-global-sport-img-nobg {max-width: 90vw; border-radius: 12px;}
+  .wc26-global-sport-wc-list {font-size: 0.96rem;}
+  .wc26-global-sport-carousel {max-width: 220px; min-height: 230px;}
+  .wc26-global-sport-carousel-track {width: 220px; height: 220px;}
+  .wc26-global-sport-carousel-card {width: 220px; height: 220px;}
+}
+</style>
+<script>
+(function(){
+  // Seamless carousel auto scroll
+  const track = document.querySelector('.wc26-global-sport-carousel-track');
+  const cards = Array.from(track.children);
+  // 複製第一張和第二張到最後，達到無縫輪播
+  track.appendChild(cards[0].cloneNode(true));
+  track.appendChild(cards[1].cloneNode(true));
+  let current = 0;
+  let cardCount = cards.length;
+  let cardWidth = cards[0].offsetWidth + 14;
+  let trackLength = cardCount + 2; // 原卡+複製卡
+  function updateCardWidth() {
+    cardWidth = cards[0].offsetWidth + 14;
+  }
+  function scrollCarousel() {
+    updateCardWidth();
+    current++;
+    track.style.transition = 'transform 0.8s cubic-bezier(.75,.2,.3,1)';
+    track.style.transform = `translateX(-${current * cardWidth}px)`;
+    // 若到達複製卡片，重置至第一張
+    if (current === cardCount) {
+      setTimeout(() => {
+        track.style.transition = 'none';
+        track.style.transform = `translateX(0px)`;
+        current = 0;
+      }, 820);
+    }
+  }
+  let timer = setInterval(scrollCarousel, 3200);
+  window.addEventListener('resize', ()=>{ updateCardWidth(); track.style.transform = `translateX(-${current * cardWidth}px)`; });
+})();
+</script>
+<section class="fa-le-app-bg-v3">
+  <div class="fa-le-app-section-v3">
+    <!-- 左側：標題與說明 -->
+    <div class="fa-le-app-left-v3">
+      <h2 class="fa-le-app-title-v3">發樂娛樂城APP下載</h2>
+      <div class="fa-le-app-subtitle-v3">FALE CASINO APP DOWNLOAD</div>
+      <p class="fa-le-app-desc-v3">
+        隨時隨地輕鬆暢玩發樂娛樂城！<br>
+        下載專屬APP，享受流暢操作與多元功能，安全快速登入，熱門遊戲一手掌握。<br>
+        支援 Android & iOS，帳號資料加密，安全有保障。
+      </p>
+      <div class="fa-le-app-btns-v3">
+        <a href="https://falegame66.com/app/" class="fa-le-app-btn-v3 fa-le-app-btn-android">
+          <img src="https://i.imgur.com/cjft1Hc.png" alt="Google Play" />
+        </a>
+        <a href="https://falegame66.com/app/" class="fa-le-app-btn-v3 fa-le-app-btn-ios">
+          <img src="https://i.imgur.com/GxH5S75.png" alt="App Store" />
+        </a>
+      </div>
+      <div class="fa-le-app-quickbtn-v3">
+        <a href="https://falegame66.com/app/" class="fa-le-app-btn-v3 fa-le-app-btn-blue">發樂娛樂城APP下載</a>
+      </div>
+    </div>
+    <!-- 中間：APP形象影片，自動播放、靜音、循環 -->
+    <div class="fa-le-app-center-v3">
+      <div class="fa-le-app-phoneimg-v3">
+        <video src="https://falegame66.com/wp-content/uploads/2025/09/IMG_2644.mov"
+               autoplay
+               muted
+               loop
+               playsinline
+               poster="https://falegame66.com/wp-content/uploads/2025/09/IMG_2644.jpg"
+               style="width:94%;max-width:320px;border-radius:28px;">
+          您的瀏覽器不支援影片播放
+        </video>
+      </div>
+    </div>
+    <!-- 右側：小型功能卡片 -->
+    <div class="fa-le-app-right-v3">
+      <div class="fa-le-app-features-v3">
+        <!-- 卡片1 -->
+        <div class="service-card improved-card small-card">
+          <div class="service-icon improved-icon small-icon">
+            <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2023/11/Serve1.webp?fit=300%2C300&ssl=1" alt="出金保障" />
+          </div>
+          <div class="service-title small-title">娛樂城出金保證</div>
+          <div class="service-desc small-desc">
+            娛樂城採多重系統，做到最快速存提。無論贏，玩家都不用擔心資金出款全都到帳。
+          </div>
+          <a class="service-btn small-btn" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%e5%87%ba%e9%87%91/" target="_blank" rel="noopener">出金專區</a>
+        </div>
+        <!-- 卡片2 -->
+        <div class="service-card improved-card small-card">
+          <div class="service-icon improved-icon small-icon">
+            <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2023/11/Serve3.webp?fit=300%2C300&ssl=1" alt="24小時客服" />
+          </div>
+          <div class="service-title small-title">娛樂城24小時服務</div>
+          <div class="service-desc small-desc">
+            發樂娛樂城專業客服團隊，遊戲或出金異常，會員無論何時都能享受最快的協助與專屬服務。
+          </div>
+          <a class="service-btn small-btn" href="https://lin.ee/Ta4EbEv" target="_blank" rel="noopener">聯絡客服</a>
+        </div>
+        <!-- 卡片3 -->
+        <div class="service-card improved-card small-card">
+          <div class="service-icon improved-icon small-icon">
+            <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2023/11/Serve2.webp?fit=300%2C300&ssl=1" alt="APP技術" />
+          </div>
+          <div class="service-title small-title">娛樂城全套技術</div>
+          <div class="service-desc small-desc">
+            發樂娛樂城原生自研APP技術升級高穩定，體驗無縫連線，行動娛樂隨時開啟。
+          </div>
+          <a class="service-btn small-btn" href="https://falegame66.com/app/" target="_blank" rel="noopener">APP下載</a>
+        </div>
+        <!-- 卡片4 -->
+        <div class="service-card improved-card small-card">
+          <div class="service-icon improved-icon small-icon">
+            <img src="https://i0.wp.com/falegame66.com/wp-content/uploads/2023/11/Serve4.webp?fit=300%2C300&ssl=1" alt="安全防護" />
+          </div>
+          <div class="service-title small-title">娛樂城安全防護</div>
+          <div class="service-desc small-desc">
+            娛樂城合法安全控管為優先，採用加密技術加強安全機制，會員資金有專屬的第三方保障。
+          </div>
+          <a class="service-btn small-btn" href="https://falegame66.com/" target="_blank" rel="noopener">安全機制</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.fa-le-app-bg-v3 { background: linear-gradient(80deg, #0a1a2f 0%, #0a7dc7 60%, #0a2050 100%); border-radius: 22px; max-width: 1800px; margin: 40px auto; padding: 36px 28px 38px 28px; box-shadow: 0 8px 32px #1b8cff44, 0 2px 18px #7c3afd33; color: #fff; font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif; position: relative; overflow: hidden; }
+.fa-le-app-section-v3 { display: flex; align-items: stretch; justify-content: space-between; gap: 18px; }
+.fa-le-app-left-v3 { flex: 0 0 340px; max-width: 360px; display: flex; flex-direction: column; justify-content: center; padding-right: 18px; }
+.fa-le-app-title-v3 { font-size: 2.0rem; font-weight: 900; letter-spacing: 2px; color: #fff; margin-bottom: 6px; text-shadow: 0 6px 22px #fff9, 0 2px 14px #7c3afd66; }
+.fa-le-app-subtitle-v3 { font-size: 1.18rem; color: #ffd700; font-weight: bold; letter-spacing: 2px; margin-bottom: 12px; text-shadow: 0 2px 10px #ffd70044; }
+.fa-le-app-desc-v3 { color: #e9f6ff; font-size: 1.08rem; margin-bottom: 18px; line-height: 1.7; }
+.fa-le-app-btns-v3 { display: flex; gap: 18px; margin-bottom: 12px; }
+.fa-le-app-btn-v3 { display: inline-block; padding: 0; border-radius: 16px; box-shadow: 0 2px 10px #1b8cff33; transition: box-shadow .18s; background: none; border: none; cursor: pointer; }
+.fa-le-app-btn-v3 img { height: 46px; width: auto; border-radius: 10px; display: block; }
+.fa-le-app-btn-android:hover, .fa-le-app-btn-ios:hover { box-shadow: 0 6px 18px #ffd70044; }
+.fa-le-app-btn-blue { background: linear-gradient(90deg,#7c3afd 60%, #1b8cff 100%); color: #fff !important; font-weight: bold; font-size: 1.1rem; padding: 12px 30px; border-radius: 24px; box-shadow: 0 2px 10px #1b8cff33; text-decoration: none; letter-spacing: 1.1px; margin-top: 8px; display: inline-block; border: none; }
+.fa-le-app-btn-blue:hover { background: linear-gradient(90deg,#ffd700 80%, #ffe066 100%); color: #23253a !important; box-shadow: 0 6px 18px #ffd70044; }
+.fa-le-app-center-v3 { flex: 0 0 320px; max-width: 340px; display: flex; align-items: center; justify-content: center; }
+.fa-le-app-phoneimg-v3 { width: 320px; height: 520px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.04); border-radius: 32px; box-shadow: 0 2px 18px #7c3afd33; }
+.fa-le-app-phoneimg-v3 img, .fa-le-app-phoneimg-v3 video { width: 94%; max-width: 320px; height: auto; border-radius: 28px; box-shadow: 0 10px 40px #0a9fd855, 0 2px 14px #ffd70077; }
+
+.fa-le-app-right-v3 { flex: 1 1 420px; max-width: 420px; display: flex; flex-direction: column; justify-content: center; }
+.fa-le-app-features-v3 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+.small-card { min-height: 66px; padding: 6px 4px 6px 4px; }
+.small-icon { width: 24px; height: 24px; margin-bottom: 4px; border-radius: 10px; }
+.small-icon img { width: 18px; height: 18px; }
+.small-title { font-size: 0.88rem; margin-bottom: 2px; }
+.small-desc { font-size: 0.68rem; margin-bottom: 4px; line-height: 1.35; }
+.small-btn { font-size: 0.68rem; padding: 3px 10px; border-radius: 9px; margin-top: 2px; }
+
+.improved-card { background: #fff; border-radius: 13px; box-shadow: 0 2px 14px #0a9fd433, 0 0 0 2px #fff7 inset; display: flex; flex-direction: column; align-items: center; transition: box-shadow .16s, transform .13s; position: relative; }
+.improved-card:hover { box-shadow: 0 10px 40px #0a9fd855, 0 2px 14px #ffd70077; transform: scale(1.05); z-index: 2; }
+
+.service-title { color: #23253a; font-weight: bold; text-align: center; letter-spacing: 1px; }
+.service-desc { color: #424968; text-align: center; }
+.service-btn { background: linear-gradient(90deg,#7c3afd 60%, #1b8cff 100%); color: #fff !important; font-weight: bold; text-decoration: none; transition: background .18s, color .18s, box-shadow .18s; box-shadow: 0 2px 10px #1b8cff33; display: inline-block; border: none; }
+.service-btn:hover { background: linear-gradient(90deg,#ffd700 80%, #ffe066 100%); color: #23253a !important; box-shadow: 0 6px 18px #ffd70044; }
+
+/* RWD */
+@media (max-width: 1200px) {
+  .fa-le-app-bg-v3 { max-width: 97vw; }
+  .fa-le-app-section-v3 { gap: 8px; }
+  .fa-le-app-left-v3 { max-width: 320px; }
+  .fa-le-app-center-v3 { max-width: 220px; }
+  .fa-le-app-phoneimg-v3 { width: 210px; height: 340px; }
+  .fa-le-app-phoneimg-v3 img, .fa-le-app-phoneimg-v3 video { max-width: 200px; border-radius: 15px; }
+  .fa-le-app-right-v3 { max-width: 320px; }
+  .small-card { min-height: 54px; padding: 5px 2px 4px 2px;}
+  .small-icon { width: 18px; height: 18px; margin-bottom: 2px;}
+  .small-icon img { width: 12px; height: 12px;}
+  .small-title { font-size: 0.74rem; }
+  .small-desc { font-size: 0.56rem; }
+  .small-btn { font-size: 0.57rem; padding: 2px 5px; }
+}
+@media (max-width: 900px) {
+  .fa-le-app-section-v3 { flex-direction: column; align-items: center; gap: 24px; }
+  .fa-le-app-left-v3, .fa-le-app-center-v3, .fa-le-app-right-v3 { max-width: 97vw; flex: unset; width: 100%; }
+  .fa-le-app-features-v3 { grid-template-columns: 1fr 1fr; gap: 7px; margin: 0 auto; }
+  .small-card { min-height: 42px; padding: 2px 1px 2px 1px;}
+}
+@media (max-width: 650px) {
+  .fa-le-app-bg-v3 { padding: 18px 2vw 20px 2vw; border-radius: 14px;}
+  .fa-le-app-title-v3 { font-size: 1.28rem;}
+  .fa-le-app-subtitle-v3 { font-size: 1rem; margin-bottom: 8px;}
+  .fa-le-app-desc-v3 { font-size: 0.96rem; margin-bottom: 12px;}
+  .fa-le-app-btns-v3 { gap: 9px; }
+  .fa-le-app-btn-v3 img { height: 32px;}
+  .fa-le-app-btn-blue { font-size: 0.99rem; padding: 8px 14vw;}
+  .fa-le-app-phoneimg-v3 { width: 130px; height: 220px; border-radius: 8px;}
+  .fa-le-app-phoneimg-v3 img, .fa-le-app-phoneimg-v3 video { max-width: 120px; border-radius: 6px;}
+  .fa-le-app-features-v3 { grid-template-columns: 1fr; gap: 8px;}
+  .small-card { min-height: 32px; padding: 1px 0px 1px 0px;}
+  .small-icon { width: 12px; height: 12px; margin-bottom: 1px;}
+  .small-icon img { width: 8px; height: 8px;}
+  .small-title { font-size: 0.58rem; }
+  .small-desc { font-size: 0.48rem; }
+  .small-btn { font-size: 0.45rem; padding: 1px 3px; }
+}
+</style>
+
+<!-- 發樂娛樂城熱門遊戲推薦｜每張卡片皆可自定連結版（A HREF包覆IMG） -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<section class="ent-rg-bg">
+  <img src="https://i.imgur.com/F5QItS6.png" class="ent-rg-bg-person" alt="背景人物" />
+  <div class="ent-rg-section">
+    <div class="ent-rg-title-wrap">
+      <h2 class="ent-rg-title">發樂娛樂城熱門遊戲推薦</h2>
+      <div class="ent-rg-subtitle">CASINO GAME RANK</div>
+    </div>
+    <div class="ent-rg-grid">
+      <!-- 電子熱門遊戲 -->
+      <div class="ent-rg-block">
+        <div class="ent-rg-block-title">
+          <span class="ent-rg-icon">🎰</span>
+          電子熱門遊戲
+        </div>
+        <div class="ent-rg-cards-carousel ent-rg-cards-row">
+          <div class="swiper ent-rg-swiper ent-rg-swiper-slot">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/atg%e6%88%b0%e7%a5%9e%e8%b3%bd%e7%89%b9/" target="_blank" title="遊戲1攻略">
+                  <img src="https://i.imgur.com/E0ndqWe.png" alt="戰神賽特">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e9%ad%94%e9%be%8d%e5%82%b3%e5%a5%87%e8%b3%ba%e9%8c%a2%e6%94%bb%e7%95%a5/" target="_blank" title="魔龍傳奇">
+                  <img src="https://i.imgur.com/kUWqXJA.png" alt="魔龍傳奇">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/bng-%e5%b9%b8%e9%81%8b%e5%b9%a3%e5%a4%a7%e4%ba%a8/" target="_blank" title="BNG幸運幣大亨">
+                  <img src="https://i.imgur.com/ji8MrF5.png" alt="BGN幸運幣大亨">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/qt%e4%bb%99%e5%a2%83%e5%82%b3%e8%aa%aa/" target="_blank" title="QT仙境傳說">
+                  <img src="https://i.imgur.com/XX8P0hj.png" alt="QT仙境傳說">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/qt%e7%86%b1%e5%9c%9f%e8%b1%86/" target="_blank" title="QT熱土豆">
+                  <img src="https://i.imgur.com/b1IRVZd.png" alt="QT熱土豆">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/bng%e8%b6%85%e7%b4%9a%e8%b1%ac%e5%af%b6%e5%a4%a7%e7%9b%9c/" target="_blank" title="BNG超級豬寶大盜">
+                  <img src="https://i.imgur.com/jJz2t78.png" alt="BNG超級豬寶大盜">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e9%ba%bb%e5%b0%87%e7%99%bc%e4%ba%86/" target="_blank" title="RSG麻將發了">
+                  <img src="https://i.imgur.com/UKNqkbK.png" alt="RSG麻將發了">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/rsg%e9%9b%b7%e7%a5%9e%e4%b9%8b%e9%8e%9a/" target="_blank" title="RSG雷神之錘">
+                  <img src="https://i.imgur.com/foKUpfU.png" alt="RSG雷神之錘">
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 真人熱門遊戲 -->
+      <div class="ent-rg-block">
+        <div class="ent-rg-block-title">
+          <span class="ent-rg-icon">🃏</span>
+          真人熱門遊戲
+        </div>
+        <div class="ent-rg-cards-carousel ent-rg-cards-row">
+          <div class="swiper ent-rg-swiper ent-rg-swiper-live">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e6%ad%90%e5%8d%9a%e7%9c%9f%e4%ba%ba/" target="_blank" title="歐博真人百家樂">
+                  <img src="https://i.imgur.com/o3iPylV.png" alt="歐博真人百家樂">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/db%e7%9c%9f%e4%ba%ba/" target="_blank" title="DB真人百家樂">
+                  <img src="https://i.imgur.com/FSxjBNi.png" alt="DB真人百家樂">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/dg%e7%99%be%e5%ae%b6%e6%a8%82-2/" target="_blank" title="DG真人百家樂">
+                  <img src="https://i.imgur.com/1S4RmCT.png" alt="DG真人百家樂">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/mt2%e7%9c%9f%e4%ba%ba/" target="_blank" title="MT2真人百家樂">
+                  <img src="https://i.imgur.com/2vlvmyP.png" alt="MT2真人百家樂">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/sa%e7%9c%9f%e4%ba%ba/" target="_blank" title="SA真人百家樂">
+                  <img src="https://i.imgur.com/SoGJ5rz.png" alt="SA真人百家樂">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/t9%e7%9c%9f%e4%ba%ba/" target="_blank" title="T9真人百家樂">
+                  <img src="https://i.imgur.com/484dAnr.png" alt="T9真人百家樂">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/wm%e7%9c%9f%e4%ba%ba%e7%99%be%e5%ae%b6%e6%a8%82/" target="_blank" title="WM真人百家樂">
+                  <img src="https://i.imgur.com/s2JFlsu.png" alt="WM真人百家樂">
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 體育電競投注 -->
+      <div class="ent-rg-block">
+        <div class="ent-rg-block-title">
+          <span class="ent-rg-icon">🏆</span>
+          體育電競投注
+        </div>
+        <div class="ent-rg-cards-carousel ent-rg-cards-row">
+          <div class="swiper ent-rg-swiper ent-rg-swiper-sport">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e4%b8%96%e7%95%8c%e7%9b%83%e6%8a%95%e6%b3%a8/" target="_blank" title="世足娛樂城">
+                  <img src="https://i.imgur.com/dYVWJk6.png" alt="世足娛樂城">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e6%ad%90%e6%b4%b2%e4%ba%94%e5%a4%a7%e8%81%af%e8%b3%bd/" target="_blank" title="足球五大聯賽投注">
+                  <img src="https://i.imgur.com/DrpAvaI.png" alt="足球五大聯賽投注">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/nba%e7%9b%b4%e6%92%ad/" target="_blank" title="NBA運彩投注">
+                  <img src="https://i.imgur.com/n17iBGm.png" alt="NBA運彩投注">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/mlb%e7%be%8e%e5%9c%8b%e8%81%b7%e6%a3%922025/" target="_blank" title="MLB運彩投注">
+                  <img src="https://i.imgur.com/ErEvxG6.png" alt="MLB運彩投注">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e6%ba%ab%e5%b8%83%e9%a0%93%e7%b6%b2%e7%90%83%e9%8c%a6%e6%a8%99%e8%b3%bd/" target="_blank" title="溫布頓網球錦標賽">
+                  <img src="https://i.imgur.com/LQlJvDJ.png" alt="溫布頓網球錦標賽">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/lol%e4%b8%96%e7%95%8c%e8%b3%bd2025/" target="_blank" title="LOL電競運彩">
+                  <img src="https://i.imgur.com/2GUMBkd.png" alt="LOL電競運彩">
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 熱門彩票遊戲 -->
+      <div class="ent-rg-block">
+        <div class="ent-rg-block-title">
+          <span class="ent-rg-icon">🎱</span>
+          熱門彩票遊戲
+        </div>
+        <div class="ent-rg-cards-carousel ent-rg-cards-row">
+          <div class="swiper ent-rg-swiper ent-rg-swiper-lottery">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e5%a4%a7%e6%a8%82%e9%80%8f%e6%98%a5%e7%af%80%e5%8a%a0%e7%a2%bc/" target="_blank" title="大樂透玩法">
+                  <img src="https://i.imgur.com/fQsXPQC.png" alt="大樂透玩法">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e6%b7%b1%e5%ba%a6%e8%a7%a3%e6%9e%90%e5%85%ad%e5%90%88%e5%bd%a9-%e2%94%80-%e7%8e%a9%e6%b3%95%e3%80%81%e4%b8%8b%e6%b3%a8%e6%8a%80%e5%b7%a7%e4%b8%80%e6%ac%a1%e6%8e%8c%e6%8f%a1/" target="_blank" title="六合彩">
+                  <img src="https://i.imgur.com/HICRCyB.png" alt="六合彩">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e6%8f%90%e5%8d%87539%e4%b8%ad%e7%8d%8e%e6%8a%80%e5%b7%a7/" target="_blank" title="今彩539">
+                  <img src="https://i.imgur.com/qYNm69L.png" alt="今彩539">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e8%b3%93%e6%9e%9c%e4%b8%89%e6%98%9f%e5%9b%9b%e5%80%8d%e5%8d%81%e6%9c%9f/" target="_blank" title="BINGOBINGO">
+                  <img src="https://i.imgur.com/QtenvFR.png" alt="BINGOBINGO">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://falegame66.com/%e5%a8%81%e5%8a%9b%e5%bd%a9%e6%80%8e%e9%ba%bc%e7%8e%a9/" target="_blank" title="威力彩">
+                  <img src="https://i.imgur.com/c8TaSe3.png" alt="威力彩">
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.ent-rg-bg {
+  background: linear-gradient(135deg, #1b2140 0%, #3c2c6e 56%, #221d2c 100%);
+  border-radius: 22px;
+  max-width: 1800px;
+  margin: 48px auto;
+  padding: 36px 12px 42px 12px;
+  box-shadow: 0 8px 32px #1b8cff44, 0 2px 18px #7c3afd33;
+  font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.ent-rg-bg-person {
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 330px;
+  max-width: 30vw;
+  opacity: 0.33;
+  pointer-events: none;
+  z-index: 1;
+  filter: drop-shadow(0 12px 46px #2a165fcc);
+}
+.ent-rg-section {
+  position: relative;
+  z-index: 2;
+}
+.ent-rg-title-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 66%;
+  margin-bottom: 0;
+}
+.ent-rg-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 0 6px 22px #fff9, 0 2px 14px #7c3afd66;
+  margin-bottom: 2px;
+  text-align: left;
+}
+.ent-rg-subtitle {
+  font-size: 1.05rem;
+  color: #ffd700;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  text-shadow: 0 2px 10px #ffd70044;
+  text-align: left;
+}
+.ent-rg-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.ent-rg-block-title {
+  font-size: 1.09rem;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-shadow: 0 2px 12px #fff5,0 2px 8px #7c3afd66;
+}
+.ent-rg-icon {
+  font-size: 1.35em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ent-rg-cards-carousel {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.ent-rg-swiper {
+  width: 100%;
+  padding-bottom: 36px;
+}
+.ent-rg-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s;
+}
+.ent-rg-swiper .swiper-slide img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 2px 18px #7c3afd44;
+  border: 3px solid #37aaff;
+  background: #eaf7fc;
+  margin: 0 2px;
+  transition: box-shadow .15s, transform .3s;
+}
+.ent-rg-swiper .swiper-slide img:hover {
+  box-shadow: 0 8px 28px #ffd60066, 0 4px 18px #7c3afd77;
+  transform: scale(1.05) translateY(-4px);
+  z-index: 2;
+}
+.swiper-button-next, .swiper-button-prev {
+  color: #7c3afd;
+  top: 48%;
+  width: 38px; height: 38px;
+  background: rgba(124,58,253,0.09);
+  border-radius: 50%;
+  box-shadow: 0 2px 10px #7c3afd33;
+  transition: background .14s;
+  z-index: 3;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background: #ffd700;
+  color: #23253a;
+}
+.swiper-pagination-bullet {
+  background: #7c3afd;
+  opacity: 0.55;
+}
+.swiper-pagination-bullet-active {
+  background: #ffd700;
+  opacity: 1;
+}
+/* RWD調整 - 電腦版大圖 */
+@media (min-width: 1100px) {
+  .ent-rg-title-wrap {width: 66%;margin-bottom: 0;}
+  .ent-rg-title, .ent-rg-subtitle {text-align: left;}
+  .ent-rg-swiper .swiper-slide img {width: 240px;height: 240px;}
+  .ent-rg-bg-person {width: 400px;max-width: 380px;}
+}
+/* RWD調整 - 平板 */
+@media (max-width:900px) {
+  .ent-rg-bg {max-width:98vw;}
+  .ent-rg-title-wrap {width: 100%;margin-bottom: 8px;}
+  .ent-rg-title, .ent-rg-subtitle {text-align: center;}
+  .ent-rg-swiper .swiper-slide img {width: 160px;height:160px;}
+  .ent-rg-bg-person {width:180px;max-width:28vw;}
+}
+/* RWD調整 - 手機版, 一次顯示一張, 旋轉木馬特效 */
+@media (max-width:600px) {
+  .ent-rg-bg {padding: 10px 1vw;}
+  .ent-rg-title-wrap {width: 100%;margin-bottom: 6px;}
+  .ent-rg-title {font-size: 1.18rem; text-align: center;}
+  .ent-rg-subtitle {text-align:center;}
+  .ent-rg-swiper .swiper-slide img {
+    width: 50vw;
+    max-width: 350px;
+    min-width: 180px;
+    height: 54vw;
+    min-height: 110px;
+  }
+  .swiper-button-next, .swiper-button-prev {width:28px;height:28px;}
+  .ent-rg-bg-person {width: 95px; max-width: 35vw; opacity: 0.21;}
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Swiper 設定: 手機板一張一張顯示 + coverflow旋轉木馬特效
+  function getOptions() {
+    const isMobile = window.innerWidth <= 600;
+    return {
+      slidesPerView: isMobile ? 1 : 5,
+      spaceBetween: isMobile ? 0 : 18,
+      loop: true,
+      centeredSlides: isMobile ? true : false,
+      effect: isMobile ? "coverflow" : "slide",
+      coverflowEffect: isMobile ? {
+        rotate: 32,
+        stretch: 0,
+        depth: 120,
+        modifier: 1.15,
+        slideShadows: true,
+      } : undefined,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      breakpoints: {
+        600: {
+          slidesPerView: 1,
+          centeredSlides: true,
+          effect: "coverflow",
+          coverflowEffect: {
+            rotate: 32,
+            stretch: 0,
+            depth: 120,
+            modifier: 1.15,
+            slideShadows: true
+          }
+        },
+        900: { slidesPerView: 3 },
+        1100: { slidesPerView: 5 }
+      }
+    };
+  }
+  new Swiper('.ent-rg-swiper-slot', getOptions());
+  new Swiper('.ent-rg-swiper-live', getOptions());
+  new Swiper('.ent-rg-swiper-sport', getOptions());
+  new Swiper('.ent-rg-swiper-lottery', getOptions());
+});
+</script>
+
+<section class="casino-adv-optimized-wrap">
+  <h2 class="casino-adv-optimized-title">發樂娛樂城評價</h2>
+  <div class="casino-adv-optimized-desc">
+    <a href="#fale624">發樂娛樂城</a>
+    綜合PTT、Dcard、各大論壇真實評價，穩定出入金、合法認證、APP下載數破百萬，成為玩家首選娛樂城。多元支付、頂尖客服，玩得安心又便利，18歲以上玩家首選！
+  </div>
+  <div class="casino-adv-optimized-main">
+    <div class="casino-adv-optimized-left">
+      <!-- 評分卡片橫向排列 -->
+      <div class="adv-optimized-score-row">
+        <div class="score-card">
+          <div class="score-icon" aria-label="推薦指數">⭐️</div>
+          <div class="score-main">5.0</div>
+          <div class="score-label">50萬+真實評價</div>
+        </div>
+        <div class="score-card">
+          <div class="score-icon" aria-label="下載數">⬇️</div>
+          <div class="score-main">100萬+</div>
+          <div class="score-label">APP下載次數</div>
+        </div>
+        <div class="score-card">
+          <div class="score-icon" aria-label="年齡限制">🔞</div>
+          <div class="score-main" style="color: #ff4d4d;">18+</div>
+          <div class="score-label" style="color: #ff4d4d;">僅限18歲以上</div>
+        </div>
+      </div>
+      <!-- 優勢卡片橫向四格 -->
+      <div class="adv-optimized-num-row">
+        <div class="adv-num-card">
+          <div class="adv-main-num" data-target="40" data-suffix="秒">0</div>
+          <div class="adv-label">平均存款時間</div>
+        </div>
+        <div class="adv-num-card">
+          <div class="adv-main-num" data-target="21" data-suffix="家">0</div>
+          <div class="adv-label">合作遊戲系統</div>
+        </div>
+        <div class="adv-num-card">
+          <div class="adv-main-num" data-target="5" data-suffix="分">0</div>
+          <div class="adv-label">平均出金時間</div>
+        </div>
+        <div class="adv-num-card">
+          <div class="adv-main-num" data-target="5" data-suffix="種">0</div>
+          <div class="adv-label">多元支付管道</div>
+        </div>
+      </div>
+      <a class="casino-adv-optimized-btn" href="https://falegame66.com/%e3%80%8c%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%e8%a9%95%e5%83%b9%e3%80%8d/" target="_blank" rel="noopener">發樂娛樂城評價</a>
+    </div>
+    <!-- 右側：發樂娛樂城 vs 一般娛樂城比較表 -->
+    <div class="casino-adv-optimized-right casino-adv-compare-right">
+      <div class="casino-adv-compare-table">
+        <div class="casino-adv-compare-header">
+          <div class="compare-cell compare-title"></div>
+          <div class="compare-cell compare-title compare-main-title">
+            
+            <span>發樂娛樂城</span>
+          </div>
+          <div class="compare-cell compare-title">
+            
+            <span>一般娛樂城</span>
+          </div>
+        </div>
+        <div class="casino-adv-compare-row">
+          <div class="compare-cell compare-label">經營方式</div>
+          <div class="compare-cell">現金版</div>
+          <div class="compare-cell">信用版</div>
+        </div>
+        <div class="casino-adv-compare-row">
+          <div class="compare-cell compare-label">是否正常出金</div>
+          <div class="compare-cell">正常出金且有第三方認證</div>
+          <div class="compare-cell">品質參差不齊信譽低</div>
+        </div>
+        <div class="casino-adv-compare-row">
+          <div class="compare-cell compare-label">存提款速度</div>
+          <div class="compare-cell">非常快速</div>
+          <div class="compare-cell">敢貪，可能不出</div>
+        </div>
+        <div class="casino-adv-compare-row">
+          <div class="compare-cell compare-label">客服品質</div>
+          <div class="compare-cell">專業親切</div>
+          <div class="compare-cell">參差不齊</div>
+        </div>
+        <div class="casino-adv-compare-row">
+          <div class="compare-cell compare-label">客服上班時間</div>
+          <div class="compare-cell">24小時全年無休</div>
+          <div class="compare-cell">不固定</div>
+        </div>
+        <div class="casino-adv-compare-row">
+          <div class="compare-cell compare-label">原生APP</div>
+          <div class="compare-cell">有</div>
+          <div class="compare-cell">無</div>
+        </div>
+      </div>
+    </div>
+    <!-- 右下人物圖片(主區塊右下角，非QA內) -->
+    <img class="casino-adv-right-character" src="https://i.imgur.com/5TuiBl9.png" alt="發樂娛樂城人物" />
+  </div>
+</section>
+<style>
+.casino-adv-optimized-wrap {
+  background: linear-gradient(110deg, #17355b 75%, #2cd9fa 120%);
+  border-radius: 28px;
+  box-shadow: 0 8px 36px #00e5ff40;
+  padding: 42px 40px;
+  max-width: 1800px;
+  margin: 38px auto;
+  position: relative;
+}
+.casino-adv-optimized-title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin: 0 0 18px 0;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 0 2px 22px #1bf7ff22, 0 2px 14px #7c3afd33;
+}
+.casino-adv-optimized-desc {
+  color: #bafaff;
+  font-size: 1.17rem;
+  margin-bottom: 38px;
+  line-height: 1.7;
+  text-align: center;
+}
+.casino-adv-optimized-desc a { color: #ffd600; font-weight: 700; text-decoration: underline; }
+.casino-adv-optimized-main {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.casino-adv-optimized-left, .casino-adv-optimized-right {
+  flex: 1 1 0;
+  min-width: 350px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* ------- 右側比較表新設計 ------- */
+.casino-adv-compare-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.casino-adv-compare-table {
+  display: table;
+  width: 100%;
+  background: #0f5ca8;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px #0088ff09;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.casino-adv-compare-header {
+  display: table-row;
+  background: linear-gradient(90deg, #0975d4 60%, #21c9f5 120%);
+}
+.compare-cell {
+  display: table-cell;
+  padding: 14px 12px;
+  vertical-align: middle;
+  font-size: 1.09rem;
+  text-align: center;
+  background: none;
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 2px solid #fff2;
+}
+.compare-title {
+  font-size: 1.13rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1.2px;
+  background: none !important;
+  border-bottom: 2px solid #fff2 !important;
+}
+.compare-main-title {
+  color: #ffd600 !important;
+  font-size: 1.20rem !important;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  justify-content: center;
+  text-shadow: 0 2px 11px #ffd60033;
+  background: none !important;
+}
+.compare-main-title img {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px #fff3;
+}
+.casino-adv-compare-header .compare-cell img {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #222;
+  box-shadow: 0 0 6px #fff3;
+}
+.casino-adv-compare-row {
+  display: table-row;
+  background: linear-gradient(90deg, #187ad7 60%, #2cd9fa 120%);
+}
+.compare-label {
+  background: #174d97 !important;
+  font-weight: bold;
+  color: #bafaff;
+  letter-spacing: 1.1px;
+  border-right: 2px solid #2cc9ff22;
+  border-bottom: 2px solid #1ac6ff33;
+  font-size: 1.08rem;
+  text-align: right;
+  min-width: 90px;
+}
+.casino-adv-compare-row .compare-cell {
+  font-size: 1.02rem;
+  color: #fff;
+  border-bottom: 1px solid #2cc9ff33;
+}
+.casino-adv-compare-row:last-child .compare-cell {
+  border-bottom: none;
+}
+.casino-adv-right-character {
+  position: absolute;
+  right: 24px;
+  bottom: 18px;
+  width: 280px;
+  max-width: 18vw;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 0 16px #0a2050cc);
+  transition: width 0.2s, right 0.2s, bottom 0.2s;
+}
+
+/* ----- 左側卡片區原本樣式維持 ----- */
+.adv-optimized-score-row, .adv-optimized-num-row, .score-card, .adv-num-card, .casino-adv-optimized-btn { /* ...保留前述定義... */ }
+.adv-optimized-score-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+.score-card {
+  background: #194372;
+  border-radius: 15px;
+  box-shadow: 0 2px 12px #007fff33;
+  padding: 18px 14px 14px 14px;
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 120px; min-height: 120px;
+  transition: box-shadow .15s, transform .13s;
+  margin: 0 2px;
+  flex: 1 1 0;
+  color: #fff;
+}
+.score-card:hover {
+  box-shadow: 0 6px 24px #21e2ff33;
+  transform: translateY(-3px) scale(1.04);
+}
+.score-icon {
+  font-size: 2.3rem;
+  margin-bottom: 7px;
+  color: #ffd600;
+  text-shadow: 0 2px 12px #00e5ff44;
+}
+.score-main {
+  font-size: 1.45rem;
+  font-weight: bold;
+  color: #ffd600;
+  margin-bottom: 2px;
+}
+.score-label {
+  font-size: 1.03rem;
+  color: #fff;
+  margin-top: 3px;
+  letter-spacing: 1.2px;
+}
+.adv-optimized-num-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 22px 0 13px 0;
+  width: 100%;
+}
+.adv-num-card {
+  background: linear-gradient(110deg,#12294c 70%,#21c9f5 120%);
+  border-radius: 13px;
+  box-shadow: 0 2px 12px #00e5ff22;
+  padding: 16px 7px 13px 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 90px;
+  min-height: 90px;
+  border: 2px solid #2e4872;
+  transition: box-shadow .13s, transform .13s;
+  color: #fff;
+}
+.adv-num-card:hover {
+  box-shadow: 0 8px 30px #00e5ff33;
+  transform: translateY(-2px) scale(1.04);
+}
+.adv-main-num {
+  color: #ffa600;
+  font-size: 1.23rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+  line-height: 1;
+  min-height: 2.1em;
+  transition: color 0.15s;
+}
+.adv-label {
+  color: #fff4c8;
+  font-size: 1.03rem;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+.casino-adv-optimized-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #39e183 60%, #27aee8 100%);
+  color: #fff;
+  font-size: 1.13rem;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 15px 33px;
+  box-shadow: 0 3px 18px #13ffef66;
+  text-decoration: none;
+  margin-top: 22px;
+  transition: background .13s, box-shadow .13s;
+  letter-spacing: 1.5px;
+}
+.casino-adv-optimized-btn:hover {
+  background: #0dd470;
+  color: #fff;
+  box-shadow: 0 6px 24px #0dd47055;
+}
+
+@media (max-width: 1100px) {
+  .casino-adv-optimized-main { flex-direction: column; gap: 22px; }
+  .casino-adv-optimized-left, .casino-adv-optimized-right { max-width: 99vw; min-width: 0; }
+  .casino-adv-compare-table { width: 100%; }
+  .casino-adv-compare-header, .casino-adv-compare-row { display: flex; }
+  .compare-cell { flex: 1 1 0; font-size: 0.99rem; }
+  .compare-label { min-width: 70px; }
+  .casino-adv-right-character { width: 70px; right: 8px; bottom: 8px;}
+}
+@media (max-width: 900px) {
+  .casino-adv-optimized-wrap { padding: 8px 1vw 10px 1vw; }
+  .casino-adv-optimized-title { font-size: 1.3rem; }
+  .casino-adv-optimized-desc { font-size: 0.98rem; }
+  .adv-optimized-score-row { gap: 7px; }
+  .score-card { min-width: 70px; min-height: 70px; padding: 9px 4px 7px 4px;}
+  .score-icon { font-size: 1.06rem; }
+  .score-main { font-size: 0.95rem;}
+  .score-label { font-size: 0.71rem;}
+  .casino-adv-optimized-btn { font-size: 0.75rem; padding: 7px 14px;}
+  .adv-optimized-num-row { gap: 7px;}
+  .adv-num-card { min-height: 34px; padding: 8px 2px 5px 2px;}
+  .adv-main-num { font-size: 0.86rem; min-height: 1.1em;}
+  .adv-label { font-size: 0.74rem;}
+  .casino-adv-compare-table { width: 100%; }
+  .casino-adv-compare-header, .casino-adv-compare-row { display: flex; }
+  .compare-cell { flex: 1 1 0; font-size: 0.88rem; }
+  .compare-label { min-width: 50px; }
+  .casino-adv-optimized-faq-title { font-size: 1.02rem;}
+  .casino-adv-right-character { width: 65px; }
+}
+@media (max-width: 600px) {
+  .casino-adv-optimized-main { flex-direction: column; gap: 12px;}
+  .casino-adv-optimized-left, .casino-adv-optimized-right { min-width: 0; max-width: 99vw; align-items: stretch;}
+  .adv-optimized-score-row { grid-template-columns: 1fr 1fr 1fr; gap: 10px 8px; display: grid;}
+  .score-card { min-width: unset; min-height: 44px; padding: 7px 9px; width: 100%; margin: 0 0 8px 0;}
+  .score-icon { font-size: 1.2rem;}
+  .score-main { font-size: 1rem;}
+  .score-label { font-size: 0.85rem;}
+  .adv-optimized-num-row { grid-template-columns: 1fr 1fr; gap: 10px 11px; display: grid;}
+  .adv-num-card { min-height: 25px; padding: 8px 0 8px 0; width: 100%;}
+  .adv-main-num { font-size: 0.92rem; min-height: 1em;}
+  .adv-label { font-size: 0.78rem;}
+  .casino-adv-optimized-btn { font-size: 0.93rem; padding: 9px 0; width: 100%; margin-top: 14px;}
+  .casino-adv-optimized-faq-title { font-size: 1rem;}
+  .casino-adv-right-character { width: 44px; right: 8px; bottom: 0; }
+  .casino-adv-optimized-desc { font-size: 0.96rem; }
+  .casino-adv-compare-table { width: 100%; }
+  .casino-adv-compare-header, .casino-adv-compare-row { display: flex; }
+  .compare-cell { flex: 1 1 0; font-size: 0.70rem; }
+  .compare-label { min-width: 33px; }
+}
+</style>
+<script>
+function animateNumber(el, target, suffix, duration = 1100) {
+  let start = 0;
+  let startTimestamp = null;
+  const step = (timestamp) => {
+    if (!startTimestamp) startTimestamp = timestamp;
+    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+    const value = Math.floor(progress * (target - start) + start);
+    el.textContent = value + suffix;
+    if (progress < 1) { window.requestAnimationFrame(step); } else { el.textContent = target + suffix; }
+  };
+  window.requestAnimationFrame(step);
+}
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('.adv-main-num').forEach(el => {
+    const target = parseInt(el.getAttribute('data-target'), 10);
+    const suffix = el.getAttribute('data-suffix') || '';
+    animateNumber(el, target, suffix, 1100);
+  });
+});
+</script>
+
+<section class="sports-guide-section">
+  <h2 class="sports-guide-title">
+    2025運動賽事
+  </h2>
+  <div class="sports-guide-subtitle">運彩線上投注</div>
+  <div class="sports-guide-grid">
+    <div class="guide-card">
+      <div class="guide-img-tag tag-safety">安全<br>通彩平台</div>
+      <div class="guide-title">2025年運彩賽事該在哪個平台投注？</div>
+      <div class="guide-desc">解析各大運彩平台特色，助你選對安全穩定、高回饋的平台下注。</div>
+      <a class="guide-btn" href="https://falegame66.com/2025%e5%b9%b4%e5%ba%a6%e9%ab%94%e8%82%b2%e8%b3%bd%e4%ba%8b/">看詳細推薦</a>
+    </div>
+    <div class="guide-card">
+      <div class="guide-img-tag tag-compare">賠率<br>比較</div>
+      <div class="guide-title">「運彩投注」台彩與線上投注站差別在哪？</div>
+      <div class="guide-desc">台彩與娛樂城投注流程、獎金回饋、賠率差異完整比較，新手入門必看！</div>
+      <a class="guide-btn" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%ef%bc%9a%e4%bb%80%e9%ba%bc%e6%98%af%e4%b8%b2%e9%97%9c%ef%bc%9f%e4%b8%b2%e9%97%9c%e4%b8%80%e5%ae%9a%e8%a6%81%e5%85%a8%e9%81%8e%e5%97%8e%ef%bc%9f%ef%bc%9f/">賠率比較表</a>
+    </div>
+    <div class="guide-card">
+      <div class="guide-img-tag tag-newbie">新手<br>注意事</div>
+      <div class="guide-title">新手玩運彩時有哪些需要注意的？</div>
+      <div class="guide-desc">投注注意事項、常見陷阱、資金管理、穩賺技巧全整理。</div>
+      <a class="guide-btn" href="https://falegame66.com/%e9%81%8b%e5%bd%a9%e6%96%b0%e6%89%8b%e6%8a%95%e6%b3%a8%e5%bf%85%e7%9c%8b/">新手攻略</a>
+    </div>
+    <div class="guide-card">
+      <div class="guide-img-tag tag-live">賽事<br>免費看</div>
+      <div class="guide-title">運動賽事免費線上直播盡在發樂</div>
+      <div class="guide-desc">賽事直播同步發樂娛樂城，邊看比賽邊下注，體驗最刺激的運動樂趣！</div>
+      <a class="guide-btn" href="https://falegame66.com/%e6%b3%95%e5%9c%8b%e7%b6%b2%e7%90%83%e5%85%ac%e9%96%8b%e8%b3%bd/">直播平台資訊</a>
+    </div>
+    <div class="guide-card">
+      <div class="guide-img-tag tag-hot">體育<br>系統推薦</div>
+      <div class="guide-title">娛樂城體育系統推薦：最佳運動投注平台選擇！</div>
+      <div class="guide-desc">全台最多人推薦的線上運彩平台，超高回饋、穩定安全。</div>
+      <a class="guide-btn" href="https://falegame66.com/%e7%86%8a%e8%b2%93%e9%ab%94%e8%82%b2%e5%8d%b3%e6%99%82%e7%b5%90%e7%ae%97%e7%9b%b4%e6%92%ad%e4%b8%8b%e6%b3%a8%e7%82%ba%e4%bd%a0%e5%b8%b6%e4%be%86%e6%9c%80%e5%88%ba%e6%bf%80%e7%9a%84%e9%81%8b%e5%bd%a9/">熱門推薦</a>
+    </div>
+    <div class="guide-card">
+      <div class="guide-img-tag tag-compare2">平台<br>比較</div>
+      <div class="guide-title">SUPER體育 vs 熊貓體育，哪個更適合你？</div>
+      <div class="guide-desc">盤點兩大熱門平台特色、出金速度與獎勵比較，快速找到最適合你的運彩系統。</div>
+      <a class="guide-btn" href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%ef%bc%9asuper%e9%ab%94%e8%82%b2%e8%81%b7%e6%a5%ad%e7%8e%a9%e5%ae%b6%e5%85%ac%e9%96%8b%e5%88%86%e4%ba%ab%e6%94%bb%e7%95%a5%e8%88%87%e7%a7%98%e8%a8%a3/">比較分析</a>
+    </div>
+  </div>
+</section>
+<style>
+.sports-guide-section {
+  background: #182d49;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #00e5ff22;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  padding: 32px 0 22px 0;
+}
+.sports-guide-title {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 24px 0 8px;
+  letter-spacing: 2px;
+}
+.sports-guide-subtitle {
+  text-align: center;
+  color: #72e3f6;
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.sports-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 18px;
+  margin: 32px auto 36px auto;
+  max-width: 1100px;
+  padding: 0 10px;
+}
+.guide-card {
+  background: linear-gradient(90deg,#173863 85%,#2af2ff15 100%);
+  border-radius: 15px;
+  box-shadow: 0 2px 12px #21e2ff12;
+  padding: 28px 16px 18px 16px;
+  display: flex; flex-direction: column; align-items: flex-start;
+  min-height: 210px;
+  position: relative;
+  border-left: 6px solid #1de1ff;
+  transition: box-shadow .15s, transform .13s;
+}
+.guide-card:hover {
+  box-shadow: 0 8px 34px #18e2ff33;
+  transform: translateY(-5px) scale(1.03);
+}
+.guide-img-tag {
+  width: 60px;
+  height: 60px;
+  background: #00e5ff;
+  color: #fff;
+  font-weight: bold;
+  font-size: .95rem;
+  border-radius: 50%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 6px #11e3ff22;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+}
+.tag-safety { background: #00e5ff; }
+.tag-compare { background: #15c7f2; }
+.tag-newbie { background: #1de1ff; }
+.tag-live { background: #13b1d8; }
+.tag-hot { background: #28c937; }
+.tag-compare2 { background: #ffb300; }
+.guide-title {
+  color: #fff;
+  font-size: 1.11rem;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.guide-desc {
+  color: #b8f3ff;
+  font-size: 0.98rem;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+.guide-btn {
+  margin-top: auto;
+  background: linear-gradient(90deg,#28c937,#15c7f2);
+  color: #fff;
+  border-radius: 7px;
+  padding: 7px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 8px #12e6ff22;
+  transition: background .14s;
+  border: none;
+}
+.guide-btn:hover { background: #15c7f2; }
+@media (max-width:900px) {.sports-guide-grid {grid-template-columns: 1fr 1fr;}}
+@media (max-width:650px) {
+  .sports-guide-grid {grid-template-columns: 1fr;}
+  .sports-guide-title { font-size: 1.3rem; }
+}
+</style>
+
+<section class="faq-2col-section">
+  <h2 class="faq-2col-title">💬 娛樂城Q&amp;A</h2>
+  <div class="faq-2col-grid">
+    <!-- 左側：娛樂城相關問題 -->
+    <div class="faq-col">
+      <div class="faq-col-title">🎲 娛樂城相關問題</div>
+      <div class="faq-grid">
+        <!-- 一題一卡片 -->
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG GAMEPAD -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="8" width="20" height="8" rx="4" fill="#12e3ff"/><circle cx="7" cy="12" r="1.5" fill="#15375a"/><circle cx="17" cy="12" r="1.5" fill="#15375a"/><rect x="10.5" y="10.5" width="3" height="3" rx="1.5" fill="#ffd600"/></svg>
+            </span>
+            娛樂城是什麼？
+          </button>
+          <div class="faq-a">娛樂城是提供線上博弈、運動投注、電子遊戲等多元娛樂的平台...</div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 錢包+箭頭 -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="10" rx="5" fill="#ffd600"/><path d="M16 12h4m0 0-1.5-1.5M20 12l-1.5 1.5" stroke="#15375a" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+            娛樂城的存款和出金如何操作？
+          </button>
+          <div class="faq-a">多數娛樂城支援ATM轉帳、USDT、超商等多種管道，提款一般24小時內到帳。</div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 盾牌警告 -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 4v5c0 6-7 9-7 9s-7-3-7-9V7l7-4z" fill="#ff4d4d"/><circle cx="12" cy="11" r="1.5" fill="#fff"/><rect x="11.25" y="13" width="1.5" height="3" rx="0.75" fill="#fff"/></svg>
+            </span>
+            玩家該如何判斷黑網詐騙娛樂城？
+          </button>
+          <div class="faq-a">認明平台是否有合法認證、網路評價、是否公開出金紀錄...，避免無品牌小網站。</div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 循環箭頭 -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 8V4l-4 4 4 4V8c3.31 0 6 2.69 6 6a6 6 0 0 1-6 6" stroke="#12e3ff" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="20" r="1.5" fill="#12e3ff"/></svg>
+            </span>
+            娛樂城流水(洗碼量)是什麼？
+          </button>
+          <div class="faq-a">是指你總下注金額，不論輸贏都會累計，達標才能提領紅利或獎金。</div>
+        </div>
+                  <div class="faq-card">
+  <button class="faq-q" aria-expanded="false">
+    <span class="faq-icon">
+      <!-- SVG 法律天秤 -->
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <ellipse cx="12" cy="6" rx="6" ry="2.5" fill="#ffd600"/>
+        <rect x="11" y="6" width="2" height="11" rx="1" fill="#12e3ff"/>
+        <path d="M7 17c0 2 2.5 3 5 3s5-1 5-3" stroke="#ffd600" stroke-width="1.2" fill="none"/>
+        <path d="M6 10l-2 5h4l-2-5zM18 10l-2 5h4l-2-5z" fill="#12e3ff" stroke="#ffd600" stroke-width="1"/>
+      </svg>
+    </span>
+    線上娛樂城是否合法？會不會被抓？
+  </button>
+  <div class="faq-a">
+    合法的線上娛樂城必須經過政府或國際博弈監管機構認證，並持有合法執照。玩家只要選擇有牌照、公開經營的娛樂城進行遊戲，通常不會有法律風險。切勿參與來路不明或非法網站，以免遭遇詐騙或法律糾紛
+  </div>
+</div>
+      </div>
+    </div>
+    <!-- 右側：關於發樂娛樂城 -->
+    <div class="faq-col">
+      <div class="faq-col-title">🎰 關於發樂娛樂城</div>
+      <div class="faq-grid">
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 獎盃 -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="6" y="3" width="12" height="7" rx="3.5" fill="#ffd600"/><path d="M12 10v5" stroke="#15375a" stroke-width="1.5" stroke-linecap="round"/><ellipse cx="12" cy="19" rx="3" ry="2" fill="#ffd600"/></svg>
+            </span>
+            為何選擇發樂娛樂城？
+          </button>
+          <div class="faq-a">發樂娛樂城以合法經營、高返水、高出金效率、USDT多元支付、百款遊戲深受玩家好評。</div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 錢包+箭頭 -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="10" rx="5" fill="#ffd600"/><path d="M16 12h4m0 0-1.5-1.5M20 12l-1.5 1.5" stroke="#15375a" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+            發樂娛樂城出金速度如何？
+          </button>
+          <div class="faq-a">平均出金時間5分鐘內，且24小時全年無休，無上限秒到帳！</div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 循環箭頭(優惠) -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 8V4l-4 4 4 4V8c3.31 0 6 2.69 6 6a6 6 0 0 1-6 6" stroke="#12e3ff" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="20" r="1.5" fill="#12e3ff"/></svg>
+            </span>
+            發樂娛樂城有哪些優惠？
+          </button>
+          <div class="faq-a">新用戶註冊送體驗金、USDT儲值優惠、百家樂返水、老虎機任務…每週新活動。</div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 鎖+盾牌(安全) -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="7" y="11" width="10" height="7" rx="3.5" fill="#12e3ff"/><rect x="10" y="8" width="4" height="4" rx="2" fill="#ffd600"/><path d="M12 15v2" stroke="#15375a" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+            發樂娛樂城安全可靠的支付系統
+          </button>
+          <div class="faq-a">採用銀行級加密、專屬第三方金流、支援多種支付方式，確保資金絕對安全。</div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-q" aria-expanded="false">
+            <span class="faq-icon">
+              <!-- SVG 客服icon(耳機) -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="8" rx="8" ry="6" fill="#12e3ff"/><rect x="4" y="14" width="4" height="4" rx="2" fill="#ffd600"/><rect x="16" y="14" width="4" height="4" rx="2" fill="#ffd600"/><rect x="9" y="15" width="6" height="3" rx="1.5" fill="#fff"/></svg>
+            </span>
+            發樂24小時專業客服
+          </button>
+          <div class="faq-a">線上真人客服全年無休、即時協助解決所有遊戲、金流、帳號問題。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.faq-2col-section {
+  background: #15375a;
+  border-radius: 22px;
+  padding: 44px 8px 38px 8px;
+  box-shadow: 0 2px 22px #0015;
+  max-width: 1200px;
+  margin: 0 auto 54px auto;
+}
+.faq-2col-title {
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 22px 0;
+  letter-spacing: 2px;
+}
+.faq-2col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px 46px;
+}
+.faq-col-title {
+  color: #3cefff;
+  font-size: 1.13rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding-left: 4px;
+}
+.faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.faq-card {
+  background: linear-gradient(90deg,#19345c 85%,#33eaff13 100%);
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #00e6ff14;
+  overflow: hidden;
+  border-left: 6px solid #3cefff;
+  transition: box-shadow .18s;
+}
+.faq-card.open,
+.faq-card:focus-within {
+  box-shadow: 0 10px 28px #00f8ff33;
+}
+.faq-q {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.08rem;
+  font-weight: bold;
+  padding: 18px 22px;
+  cursor: pointer;
+  transition: background .16s;
+  gap: 12px;
+  letter-spacing: 1px;
+}
+.faq-card.open .faq-q,
+.faq-q:hover {
+  background: #2d4d75;
+}
+.faq-icon {
+  width: 1.8em; height: 1.8em; display:inline-block; margin-right: 9px; vertical-align:-0.18em;
+}
+.faq-a {
+  color: #99e8ff;
+  background: #19345c;
+  font-size: 1.04rem;
+  font-weight: 500;
+  padding: 0 22px 15px 54px;
+  border-top: 1px solid #2c527e;
+  display: none;
+  animation: fadein .34s;
+  line-height: 1.8;
+  text-align: left;
+}
+@keyframes fadein { from {opacity:0;transform:translateY(-12px);} to {opacity:1;transform:translateY(0);} }
+.faq-card.open .faq-a { display: block;}
+@media (max-width:950px) {
+  .faq-2col-grid { grid-template-columns: 1fr; gap: 36px 0;}
+  .faq-2col-section { padding: 28px 4px 24px 4px;}
+}
+@media (max-width:600px) {
+  .faq-2col-title { font-size: 1.2rem;}
+  .faq-col-title { font-size: 1.01rem;}
+  .faq-card { border-radius: 8px;}
+  .faq-q { font-size: 0.97rem; padding: 12px 10px;}
+  .faq-a { padding: 0 10px 10px 30px;}
+  .faq-icon { width: 1.3em; height: 1.3em; margin-right: 5px;}
+}
+</style>
+<script>
+// 卡片展開動畫，支援多題同時開合，並加上 aria 屬性
+document.querySelectorAll('.faq-q').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    this.parentNode.classList.toggle('open');
+    this.setAttribute('aria-expanded', this.parentNode.classList.contains('open') ? "true" : "false");
+  });
+});
+</script>
