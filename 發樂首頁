@@ -1004,6 +1004,162 @@
         .guide-item { padding: 20px; }
         .guide-icon { width: 50px; height: 50px; font-size: 1.5rem; }
     }
+    /* --- 8. 最新文章區塊 (全展開優化版) --- */
+.news-section-full {
+    width: 100%;
+    padding: 100px 0;
+    /* 背景：延續深色風格，使用深海藍漸層 */
+    background: linear-gradient(180deg, #0a1a2f 0%, #112240 100%);
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* 背景幾何裝飾 */
+.news-bg-pattern {
+    position: absolute; width: 100%; height: 100%; top: 0; left: 0;
+    background-image: 
+        linear-gradient(45deg, rgba(255,255,255,0.02) 25%, transparent 25%, transparent 75%, rgba(255,255,255,0.02) 75%, rgba(255,255,255,0.02)),
+        linear-gradient(45deg, rgba(255,255,255,0.02) 25%, transparent 25%, transparent 75%, rgba(255,255,255,0.02) 75%, rgba(255,255,255,0.02));
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.news-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.news-header { text-align: center; margin-bottom: 60px; }
+.news-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem; color: #fff;
+    font-weight: 800; margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(32, 247, 255, 0.3);
+}
+.news-subtitle {
+    font-size: 1.2rem; color: var(--accent-gold);
+    letter-spacing: 4px; font-weight: 700;
+}
+
+/* 文章網格 (這裡對應 PHP 輸出的結構) */
+.fale-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 預設三欄 */
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+/* 文章卡片樣式 */
+.fale-post-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+}
+
+.fale-post-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary-blue);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.fale-post-thumb {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.fale-post-thumb img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.fale-post-card:hover .fale-post-thumb img { transform: scale(1.1); }
+
+.fale-post-content {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.fale-post-meta {
+    font-size: 0.85rem;
+    color: var(--primary-blue);
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.fale-post-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 15px 0;
+}
+
+.fale-post-title a {
+    color: #fff; text-decoration: none;
+    transition: color 0.3s;
+}
+
+.fale-post-title a:hover { color: var(--accent-gold); }
+
+.fale-post-excerpt {
+    font-size: 0.95rem; color: #aaa;
+    line-height: 1.6; margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.fale-read-more {
+    font-size: 0.95rem; font-weight: bold;
+    color: #fff; text-decoration: none;
+    margin-top: auto; display: inline-flex; align-items: center;
+    transition: transform 0.3s;
+}
+
+.fale-read-more:hover { color: var(--primary-blue); transform: translateX(5px); }
+
+/* 載入更多按鈕容器 */
+.fale-load-more-wrapper { text-align: center; margin-top: 20px; }
+
+#fale-load-more-btn {
+    background: linear-gradient(90deg, #1769b9, #20f7ff);
+    color: #fff; border: none;
+    padding: 15px 40px; font-size: 1.1rem; font-weight: bold;
+    border-radius: 50px; cursor: pointer;
+    box-shadow: 0 5px 15px rgba(23, 105, 185, 0.3);
+    transition: all 0.3s;
+}
+
+#fale-load-more-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(23, 105, 185, 0.5);
+}
+
+/* RWD */
+@media (max-width: 1024px) {
+    .fale-posts-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+    .news-section-full { padding: 60px 0; }
+    .news-title { font-size: 2.2rem; }
+    .fale-posts-grid { grid-template-columns: 1fr; }
+}
     /* --- 9. 常見問題 FAQ (全展開手風琴優化版) --- */
     .faq-section-full {
         width: 100%;
@@ -1286,42 +1442,42 @@
                     <div class="game-left-col">
                         <div class="game-category-grid">
                             <a href="https://falegame66.com/電子老虎機-post/" class="game-cat-card" target="_blank">
-                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2023/07/game_slot.webp" alt="電子老虎機"></div>
+                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2026/01/1511-29.png" alt="電子老虎機"></div>
                                 <div class="game-cat-content">
                                     <div class="game-cat-name">電子老虎機</div>
                                     <p class="game-cat-desc">QT、RSG、BNG 高爆率機台</p>
                                 </div>
                             </a>
                             <a href="https://falegame66.com/真人百家樂-post/" class="game-cat-card" target="_blank">
-                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2023/07/game_live.webp" alt="真人百家樂"></div>
+                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2026/01/1511-30.png" alt="真人百家樂"></div>
                                 <div class="game-cat-content">
                                     <div class="game-cat-name">真人百家樂</div>
                                     <p class="game-cat-desc">美女荷官 24H 視訊陪玩</p>
                                 </div>
                             </a>
                             <a href="https://falegame66.com/體育賽事-post/" class="game-cat-card" target="_blank">
-                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2023/07/game_sport.webp" alt="體育電競"></div>
+                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2026/01/1511-31.png" alt="體育電競"></div>
                                 <div class="game-cat-content">
                                     <div class="game-cat-name">體育電競</div>
                                     <p class="game-cat-desc">2026 世界盃運彩投注首選</p>
                                 </div>
                             </a>
                             <a href="https://falegame66.com/poker-post/" class="game-cat-card" target="_blank">
-                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2023/07/game_chess.webp" alt="棋牌遊戲"></div>
+                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2026/01/1511-32.png" alt="棋牌遊戲"></div>
                                 <div class="game-cat-content">
                                     <div class="game-cat-name">棋牌遊戲</div>
                                     <p class="game-cat-desc">萬人線上對戰，杜絕夥牌</p>
                                 </div>
                             </a>
                             <a href="https://falegame66.com/彩票遊戲-post/" class="game-cat-card" target="_blank">
-                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2023/07/game_lottery.webp" alt="彩票遊戲"></div>
+                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2026/01/1511-33.png" alt="彩票遊戲"></div>
                                 <div class="game-cat-content">
                                     <div class="game-cat-name">彩票遊戲</div>
                                     <p class="game-cat-desc">539、六合彩、極速飛艇</p>
                                 </div>
                             </a>
                             <a href="https://falegame66.com/捕魚遊戲-post/" class="game-cat-card" target="_blank">
-                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2023/07/game_fish.webp" alt="捕魚遊戲"></div>
+                                <div class="game-cat-imgbox"><img src="https://falegame66.com/wp-content/uploads/2026/01/1511-34.png" alt="捕魚遊戲"></div>
                                 <div class="game-cat-content">
                                     <div class="game-cat-name">捕魚遊戲</div>
                                     <p class="game-cat-desc">3D 特效，擊殺大魚爆分</p>
@@ -1344,15 +1500,15 @@
                                     <img src="https://i.imgur.com/E0ndqWe.png" class="rank-img" alt="戰神賽特">
                                     <div class="rank-info"><span class="rank-title">戰神賽特</span><span class="rank-meta">ATG電子</span></div>
                                 </a>
-                                <a href="https://falegame66.com/魔龍傳奇賺錢攻略/" class="rank-item" target="_blank">
+                                <a href="https://falegame66.com/bng-%E5%B9%B8%E9%81%8B%E5%B9%A3%E5%A4%A7%E4%BA%A8/" class="rank-item" target="_blank">
                                     <span class="rank-num">2</span>
-                                    <img src="https://i.imgur.com/kUWqXJA.png" class="rank-img" alt="魔龍傳奇">
-                                    <div class="rank-info"><span class="rank-title">魔龍傳奇</span><span class="rank-meta">GR電子</span></div>
+                                    <img src="https://falegame66.com/wp-content/uploads/2025/04/BNG幸運幣大亨.png" class="rank-img" alt="幸運幣大亨">
+                                    <div class="rank-info"><span class="rank-title">幸運幣大亨</span><span class="rank-meta">BNG電子</span></div>
                                 </a>
-                                <a href="https://falegame66.com/rsg雷神之錘/" class="rank-item" target="_blank">
+                                <a href="https://falegame66.com/qt%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA/" class="rank-item" target="_blank">
                                     <span class="rank-num">3</span>
-                                    <img src="https://i.imgur.com/foKUpfU.png" class="rank-img" alt="雷神之錘">
-                                    <div class="rank-info"><span class="rank-title">雷神之錘</span><span class="rank-meta">RSG電子</span></div>
+                                    <img src="https://falegame66.com/wp-content/uploads/2025/02/QT仙境傳說.png" class="rank-img" alt="QT仙境傳說">
+                                    <div class="rank-info"><span class="rank-title">QT仙境傳說</span><span class="rank-meta">RSG電子</span></div>
                                 </a>
                             </div>
                             <div id="rank-live" class="ranking-list">
@@ -1714,7 +1870,7 @@
             
             <div class="sports-feature-col">
                 <a href="https://falegame66.com/%e4%b8%96%e8%b6%b3%e5%a8%9b%e6%a8%82%e5%9f%8e/" target="_blank" class="wc-card">
-                    <img src="https://falegame66.com/wp-content/uploads/2023/07/game_sport.webp" alt="2026世界盃" class="wc-bg-img">
+                    <img src="https://falegame66.com/wp-content/uploads/2026/01/1511-35.png" alt="2026世界盃" class="wc-bg-img">
                     
                     <div class="wc-content">
                         <span class="wc-tag">🔥 賽事焦點</span>
