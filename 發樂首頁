@@ -1493,65 +1493,106 @@
                     </div>
 
                     <div class="game-right-col">
-                        <div class="game-tabs-wrapper">
-                            <h3 style="color:#fff; margin-bottom:20px; font-size:1.5rem; text-align:left;">🔥 本週熱門排行</h3>
-                            <div class="game-tabs-nav">
-                                <button class="tab-btn active" onclick="openTab(event, 'rank-slot')">電子</button>
-                                <button class="tab-btn" onclick="openTab(event, 'rank-live')">真人</button>
-                                <button class="tab-btn" onclick="openTab(event, 'rank-lottery')">彩票</button>
-                            </div>
-                            <div id="rank-slot" class="ranking-list active">
-                                <a href="https://falegame66.com/atg戰神賽特/" class="rank-item" target="_blank">
-                                    <span class="rank-num">1</span>
-                                    <img src="https://i.imgur.com/E0ndqWe.png" class="rank-img" alt="戰神賽特">
-                                    <div class="rank-info"><span class="rank-title">戰神賽特</span><span class="rank-meta">ATG電子</span></div>
-                                </a>
-                                <a href="https://falegame66.com/bng-%E5%B9%B8%E9%81%8B%E5%B9%A3%E5%A4%A7%E4%BA%A8/" class="rank-item" target="_blank">
-                                    <span class="rank-num">2</span>
-                                    <img src="https://falegame66.com/wp-content/uploads/2025/04/BNG幸運幣大亨.png" class="rank-img" alt="幸運幣大亨">
-                                    <div class="rank-info"><span class="rank-title">幸運幣大亨</span><span class="rank-meta">BNG電子</span></div>
-                                </a>
-                                <a href="https://falegame66.com/qt%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA/" class="rank-item" target="_blank">
-                                    <span class="rank-num">3</span>
-                                    <img src="https://falegame66.com/wp-content/uploads/2025/02/QT仙境傳說.png" class="rank-img" alt="QT仙境傳說">
-                                    <div class="rank-info"><span class="rank-title">QT仙境傳說</span><span class="rank-meta">RSG電子</span></div>
-                                </a>
-                            </div>
-                            <div id="rank-live" class="ranking-list">
-                                <a href="https://falegame66.com/t9真人/" class="rank-item" target="_blank">
-                                    <span class="rank-num">1</span>
-                                    <img src="https://i.imgur.com/484dAnr.png" class="rank-img" alt="T9真人">
-                                    <div class="rank-info"><span class="rank-title">T9 真人</span><span class="rank-meta">獨家代理</span></div>
-                                </a>
-                                <a href="https://falegame66.com/dg百家樂-2/" class="rank-item" target="_blank">
-                                    <span class="rank-num">2</span>
-                                    <img src="https://i.imgur.com/1S4RmCT.png" class="rank-img" alt="DG真人">
-                                    <div class="rank-info"><span class="rank-title">DG 百家樂</span><span class="rank-meta">經典首選</span></div>
-                                </a>
-                                <a href="https://falegame66.com/歐博真人/" class="rank-item" target="_blank">
-                                    <span class="rank-num">3</span>
-                                    <img src="https://i.imgur.com/o3iPylV.png" class="rank-img" alt="歐博真人">
-                                    <div class="rank-info"><span class="rank-title">歐博真人</span><span class="rank-meta">亞洲熱門</span></div>
-                                </a>
-                            </div>
-                            <div id="rank-lottery" class="ranking-list">
-                                <a href="https://falegame66.com/提升539中獎技巧/" class="rank-item" target="_blank">
-                                    <span class="rank-num">1</span>
-                                    <img src="https://i.imgur.com/qYNm69L.png" class="rank-img" alt="今彩539">
-                                    <div class="rank-info"><span class="rank-title">今彩 539</span><span class="rank-meta">高賠率</span></div>
-                                </a>
-                                <a href="https://falegame66.com/深度解析六合彩-─-玩法、下注技巧一次掌握/" class="rank-item" target="_blank">
-                                    <span class="rank-num">2</span>
-                                    <img src="https://i.imgur.com/HICRCyB.png" class="rank-img" alt="六合彩">
-                                    <div class="rank-info"><span class="rank-title">香港六合彩</span><span class="rank-meta">經典彩票</span></div>
-                                </a>
-                                <a href="https://falegame66.com/賓果三星四倍十期/" class="rank-item" target="_blank">
-                                    <span class="rank-num">3</span>
-                                    <img src="https://i.imgur.com/QtenvFR.png" class="rank-img" alt="BINGO">
-                                    <div class="rank-info"><span class="rank-title">BINGO BINGO</span><span class="rank-meta">快速彩</span></div>
-                                </a>
-                            </div>
-                        </div>
+        <div class="game-tabs-wrapper">
+    <h3 style="color:#fff; margin-bottom:20px; font-size:1.5rem; text-align:left;">🔥 本週熱門排行</h3>
+    
+    <div class="game-tabs-nav">
+        <button class="tab-btn active" onclick="openTab(event, 'rank-slot')">電子</button>
+        <button class="tab-btn" onclick="openTab(event, 'rank-live')">真人</button>
+        <button class="tab-btn" onclick="openTab(event, 'rank-sport')">體育</button> <button class="tab-btn" onclick="openTab(event, 'rank-chess')">棋牌</button> <button class="tab-btn" onclick="openTab(event, 'rank-lottery')">彩票</button>
+    </div>
+
+    <div id="rank-slot" class="ranking-list active">
+        <a href="https://falegame66.com/atg戰神賽特/" class="rank-item" target="_blank">
+            <span class="rank-num">1</span>
+            <img src="https://i.imgur.com/E0ndqWe.png" class="rank-img" alt="戰神賽特">
+            <div class="rank-info"><span class="rank-title">戰神賽特</span><span class="rank-meta">ATG電子</span></div>
+        </a>
+        <a href="https://falegame66.com/bng-%E5%B9%B8%E9%81%8B%E5%B9%A3%E5%A4%A7%E4%BA%A8/" class="rank-item" target="_blank">
+            <span class="rank-num">2</span>
+            <img src="https://falegame66.com/wp-content/uploads/2025/04/BNG幸運幣大亨.png" class="rank-img" alt="幸運幣大亨">
+            <div class="rank-info"><span class="rank-title">幸運幣大亨</span><span class="rank-meta">BNG電子</span></div>
+        </a>
+        <a href="https://falegame66.com/qt%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA/" class="rank-item" target="_blank">
+            <span class="rank-num">3</span>
+            <img src="https://falegame66.com/wp-content/uploads/2025/02/QT仙境傳說.png" class="rank-img" alt="QT仙境傳說">
+            <div class="rank-info"><span class="rank-title">QT仙境傳說</span><span class="rank-meta">RSG電子</span></div>
+        </a>
+    </div>
+
+    <div id="rank-live" class="ranking-list">
+        <a href="https://falegame66.com/t9真人/" class="rank-item" target="_blank">
+            <span class="rank-num">1</span>
+            <img src="https://i.imgur.com/484dAnr.png" class="rank-img" alt="T9真人">
+            <div class="rank-info"><span class="rank-title">T9 真人</span><span class="rank-meta">獨家代理</span></div>
+        </a>
+        <a href="https://falegame66.com/dg百家樂-2/" class="rank-item" target="_blank">
+            <span class="rank-num">2</span>
+            <img src="https://i.imgur.com/1S4RmCT.png" class="rank-img" alt="DG真人">
+            <div class="rank-info"><span class="rank-title">DG 百家樂</span><span class="rank-meta">經典首選</span></div>
+        </a>
+        <a href="https://falegame66.com/歐博真人/" class="rank-item" target="_blank">
+            <span class="rank-num">3</span>
+            <img src="https://i.imgur.com/o3iPylV.png" class="rank-img" alt="歐博真人">
+            <div class="rank-info"><span class="rank-title">歐博真人</span><span class="rank-meta">亞洲熱門</span></div>
+        </a>
+    </div>
+
+    <div id="rank-sport" class="ranking-list">
+        <a href="https://falegame66.com/nba%E9%81%8B%E5%BD%A9/" class="rank-item" target="_blank">
+            <span class="rank-num">1</span>
+            <img src="https://utowngames.com/wp-content/uploads/2026/01/未命名-300-x-300-像素-5.png" class="rank-img" alt="NBA運彩">
+            <div class="rank-info"><span class="rank-title">NBA 運彩</span><span class="rank-meta">賽事分析</span></div>
+        </a>
+        <a href="https://falegame66.com/%E4%B8%96%E7%95%8C%E7%9B%83%E6%8A%95%E6%B3%A8/" class="rank-item" target="_blank">
+            <span class="rank-num">2</span>
+            <img src="https://utowngames.com/wp-content/uploads/2026/01/未命名-300-x-300-像素-6.png" class="rank-img" alt="2026世界盃">
+            <div class="rank-info"><span class="rank-title">2026 世界盃</span><span class="rank-meta">全球關注</span></div>
+        </a>
+        <a href="https://falegame66.com/2026wbc/" class="rank-item" target="_blank">
+            <span class="rank-num">3</span>
+            <img src="https://utowngames.com/wp-content/uploads/2026/01/未命名-300-x-300-像素-8.png" class="rank-img" alt="WBC經典賽">
+            <div class="rank-info"><span class="rank-title">WBC 經典賽</span><span class="rank-meta">棒球盛事</span></div>
+        </a>
+    </div>
+
+    <div id="rank-chess" class="ranking-list">
+        <a href="https://falegame66.com/%e7%82%b8%e9%87%91%e8%8a%b1%e8%a6%8f%e5%89%87/" class="rank-item" target="_blank">
+            <span class="rank-num">1</span>
+            <img src=https://falegame66.com/wp-content/uploads/2023/12/60b43c1e3d5071c347c5d899229a6ed83cc4411c616a2-4GJOYf_fw658webp.webp" class="rank-img" alt="炸金花">
+            <div class="rank-info"><span class="rank-title">炸金花</span><span class="rank-meta">心理博弈</span></div>
+        </a>
+        <a href="https://falegame66.com/%e9%ac%a5%e5%9c%b0%e4%b8%bb/" class="rank-item" target="_blank">
+            <span class="rank-num">2</span>
+            <img src="https://utowngames.com/wp-content/uploads/2026/01/未命名-300-x-300-像素-4.png" class="rank-img" alt="鬥地主">
+            <div class="rank-info"><span class="rank-title">鬥地主</span><span class="rank-meta">國民遊戲</span></div>
+        </a>
+        <a href="https://falegame66.com/%e7%89%9b%e7%89%9b%e6%90%b6%e8%8e%8a%e9%81%8a%e6%88%b2%e8%a6%8f%e5%89%87/" class="rank-item" target="_blank">
+            <span class="rank-num">3</span>
+            <img src="https://utowngames.com/wp-content/uploads/2026/01/未命名-300-x-300-像素-3.png" class="rank-img" alt="牛牛搶莊">
+            <div class="rank-info"><span class="rank-title">牛牛搶莊</span><span class="rank-meta">速戰速決</span></div>
+        </a>
+    </div>
+
+    <div id="rank-lottery" class="ranking-list">
+        <a href="https://falegame66.com/提升539中獎技巧/" class="rank-item" target="_blank">
+            <span class="rank-num">1</span>
+            <img src="https://i.imgur.com/qYNm69L.png" class="rank-img" alt="今彩539">
+            <div class="rank-info"><span class="rank-title">今彩 539</span><span class="rank-meta">高賠率</span></div>
+        </a>
+        <a href="https://falegame66.com/深度解析六合彩-─-玩法、下注技巧一次掌握/" class="rank-item" target="_blank">
+            <span class="rank-num">2</span>
+            <img src="https://i.imgur.com/HICRCyB.png" class="rank-img" alt="六合彩">
+            <div class="rank-info"><span class="rank-title">香港六合彩</span><span class="rank-meta">經典彩票</span></div>
+        </a>
+        <a href="https://falegame66.com/賓果三星四倍十期/" class="rank-item" target="_blank">
+            <span class="rank-num">3</span>
+            <img src="https://i.imgur.com/QtenvFR.png" class="rank-img" alt="BINGO">
+            <div class="rank-info"><span class="rank-title">BINGO BINGO</span><span class="rank-meta">快速彩</span></div>
+        </a>
+    </div>
+
+</div>
 
                         <div class="game-winners-wrapper">
                             <div class="winners-header">
