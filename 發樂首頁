@@ -976,17 +976,23 @@
         transform: translateX(-5px);
     }
 
-    .guide-icon {
-        width: 60px; height: 60px;
-        background: rgba(0,0,0,0.3);
-        border-radius: 12px;
-        display: flex; align-items: center; justify-content: center;
-        font-size: 1.8rem;
-        margin-right: 20px;
-        color: var(--accent-gold);
-        flex-shrink: 0;
-    }
+/* 確保 Icon 容器大小固定 */
+.guide-icon {
+    width: 60px;        /* 您可以依照需求調整大小，例如 50px - 80px */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;     /* 防止被壓縮 */
+    margin-right: 15px; /* 與文字的間距 */
+}
 
+/* 讓圖片完美適應容器 */
+.guide-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* 保持圖片比例不變形 */
+}
     .guide-info h3 { margin: 0 0 5px 0; font-size: 1.3rem; color: #fff; }
     .guide-info p { margin: 0; font-size: 0.95rem; color: #aaa; }
     
@@ -1885,37 +1891,42 @@
                 </a>
             </div>
 
-            <div class="sports-list-col">
-                
-                <a href="https://falegame66.com/%e9%81%8b%e5%bd%a9%e6%96%b0%e6%89%8b%e6%8a%95%e6%b3%a8%e5%bf%85%e7%9c%8b/" target="_blank" class="guide-item">
-                    <div class="guide-icon">📖</div>
-                    <div class="guide-info">
-                        <h3>運彩新手懶人包</h3>
-                        <p>盤口怎麼看？串關怎麼算？3分鐘教你快速上手。</p>
-                    </div>
-                    <div class="guide-arrow">➔</div>
-                </a>
-
-                <a href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%ef%bc%9a%e4%bb%80%e9%ba%bc%e6%98%af%e4%b8%b2%e9%97%9c%ef%bc%9f%e4%b8%b2%e9%97%9c%e4%b8%80%e5%ae%9a%e8%a6%81%e5%85%a8%e9%81%8e%e5%97%8e%ef%bc%9f%ef%bc%9f/" target="_blank" class="guide-item">
-                    <div class="guide-icon">📊</div>
-                    <div class="guide-info">
-                        <h3>賠率分析與串關技巧</h3>
-                        <p>為什麼高手都選現金版？賠率差多少？真實數據分析。</p>
-                    </div>
-                    <div class="guide-arrow">➔</div>
-                </a>
-
-                <a href="https://falegame66.com/nba%e7%9b%b4%e6%92%ad/" target="_blank" class="guide-item">
-                    <div class="guide-icon">📺</div>
-                    <div class="guide-info">
-                        <h3>全球賽事免費直播</h3>
-                        <p>NBA、MLB、網球公開賽，註冊會員 0 元免費收看。</p>
-                    </div>
-                    <div class="guide-arrow">➔</div>
-                </a>
-
-            </div>
+<div class="sports-list-col">
+    
+    <a href="https://falegame66.com/%e9%81%8b%e5%bd%a9%e6%96%b0%e6%89%8b%e6%8a%95%e6%b3%a8%e5%bf%85%e7%9c%8b/" target="_blank" class="guide-item">
+        <div class="guide-icon">
+            <img src="https://falegame66.com/wp-content/uploads/2026/01/未命名-300-x-300-像素-2.png" alt="運彩新手教學">
         </div>
+        <div class="guide-info">
+            <h3>運彩新手懶人包</h3>
+            <p>盤口怎麼看？串關怎麼算？3分鐘教你快速上手。</p>
+        </div>
+        <div class="guide-arrow">➔</div>
+    </a>
+
+    <a href="https://falegame66.com/%e7%99%bc%e6%a8%82%e5%a8%9b%e6%a8%82%e5%9f%8e%ef%bc%9a%e4%bb%80%e9%ba%bc%e6%98%af%e4%b8%b2%e9%97%9c%ef%bc%9f%e4%b8%b2%e9%97%9c%e4%b8%80%e5%ae%9a%e8%a6%81%e5%85%a8%e9%81%8e%e5%97%8e%ef%bc%9f%ef%bc%9f/" target="_blank" class="guide-item">
+        <div class="guide-icon">
+            <img src="https://falegame66.com/wp-content/uploads/2026/01/未命名-300-x-300-像素.png" alt="賠率分析">
+        </div>
+        <div class="guide-info">
+            <h3>賠率分析與串關技巧</h3>
+            <p>為什麼高手都選現金版？賠率差多少？真實數據分析。</p>
+        </div>
+        <div class="guide-arrow">➔</div>
+    </a>
+
+    <a href="https://falegame66.com/nba%e7%9b%b4%e6%92%ad/" target="_blank" class="guide-item">
+        <div class="guide-icon">
+            <img src="https://falegame66.com/wp-content/uploads/2026/01/未命名-300-x-300-像素-1.png" alt="全球賽事直播">
+        </div>
+        <div class="guide-info">
+            <h3>全球賽事免費直播</h3>
+            <p>NBA、MLB、網球公開賽，註冊會員 0 元免費收看。</p>
+        </div>
+        <div class="guide-arrow">➔</div>
+    </a>
+
+</div>
     </div>
 </section>
 <section class="news-section-full">
